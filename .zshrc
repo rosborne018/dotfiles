@@ -60,6 +60,7 @@ ZSH_THEME="agnoster"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
   git
+  #zsh-history-substring-search
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -103,3 +104,13 @@ alias xc='xsel -ib'
 
 del () { mv "$@" ~/trash/ }
 
+HISTSIZE=100000
+SAVEHIST=100000
+#search backwards and forwards with a pattern
+bindkey -M vicmd '/' history-incremental-pattern-search-backward
+bindkey -M vicmd '?' history-incremental-pattern-search-forward
+
+# set up for insert mode too
+bindkey -M viins '^R' history-incremental-pattern-search-backward
+bindkey -M viins '^F' history-incremental-pattern-search-forward
+bindkey "^[[B" down-line-or-beginning-search # Down
