@@ -100,7 +100,7 @@ alias zs='source ~/.zshrc'
 
 alias gbus='cd ~/garuda/platform/bus/'
 alias venv='source ~/venv/bin/activate'
-alias venv='source ~/venv2/bin/activate'
+alias venv2='source ~/venv2/bin/activate'
 alias xenv='deactivate'
 alias hgrep='history | grep -i '
 alias xc='xsel -ib'
