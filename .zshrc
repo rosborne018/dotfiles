@@ -100,6 +100,8 @@ alias venv='source ~/venv/bin/activate'
 alias xenv='deactivate'
 alias hgrep='history | grep -i '
 alias xc='xsel -ib'
+alias pgrep="ps aux | grep -i"
+alias gsm="git commit -am '-'; git push origin master"
 
 
 del () { mv "$@" ~/trash/ }
