@@ -98,4 +98,8 @@ alias gbus='cd ~/garuda/platform/bus/'
 alias venv='source ~/venv/bin/activate'
 alias xenv='deactivate'
 alias hgrep='history | grep -i '
+alias xc='xsel -ib'
+
+
+del () { mv "$@" ~/trash/ }
 
