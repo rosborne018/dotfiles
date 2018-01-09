@@ -95,8 +95,12 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 set -o vi
 export ANSIBLE_STDOUT_CALLBACK=debug
+alias zc='vim ~/.zshrc'
+alias zs='source ~/.zshrc'
+
 alias gbus='cd ~/garuda/platform/bus/'
 alias venv='source ~/venv/bin/activate'
+alias venv='source ~/venv2/bin/activate'
 alias xenv='deactivate'
 alias hgrep='history | grep -i '
 alias xc='xsel -ib'

@@ -11,11 +11,10 @@ URxvt.boldFont:       xft:Inconsolata\ For\ Powerline:size=10:antialias=true
 URxvt.italicFont:     xft:Inconsolata\ For\ Powerline:size=10:antialias=true
 URxvt.boldItalicFont: xft:Inconsolata\ For\ Powerline:size=10:antialias=true
 
-
-!xft:Terminus (TTF) for Powerline:MediumForPowerline:size=10:antialias=true,
-!xft:Terminus (TTF) for Powerline:MediumForPowerline:size=10:antialias=true,
-!xft:Terminus (TTF) for Powerline:MediumForPowerline:size=10:antialias=true,URxvt.intensityStyles: false
-!xft:Terminus (TTF) for Powerline:MediumForPowerline:size=10:antialias=true,URxvt.iconFile:       /usr/share/icons/Faenza/apps/scalable/terminal.svg
+xft:Terminus (TTF) for Powerline:MediumForPowerline:size=10:antialias=true,
+xft:Terminus (TTF) for Powerline:MediumForPowerline:size=10:antialias=true,
+xft:Terminus (TTF) for Powerline:MediumForPowerline:size=10:antialias=true,URxvt.intensityStyles: false
+xft:Terminus (TTF) for Powerline:MediumForPowerline:size=10:antialias=true,URxvt.iconFile:       /usr/share/icons/Faenza/apps/scalable/terminal.svg
 xft:Terminus (TTF) for Powerline:MediumForPowerline:size=10:antialias=true,URxvt.boldMode:       false
 URxvt.skipBuiltinGlyphs: true
 URxvt.loginShell: true
