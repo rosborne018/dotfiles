@@ -94,3 +94,5 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 set -o vi
 export ANSIBLE_STDOUT_CALLBACK=debug
+alias gbus='cd ~/garuda/platform/bus/'
+
