@@ -97,4 +97,5 @@ export ANSIBLE_STDOUT_CALLBACK=debug
 alias gbus='cd ~/garuda/platform/bus/'
 alias venv='source ~/venv/bin/activate'
 alias xenv='deactivate'
+alias hgrep='history | grep -i '
 
