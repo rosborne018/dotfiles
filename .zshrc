@@ -95,4 +95,6 @@ source $ZSH/oh-my-zsh.sh
 set -o vi
 export ANSIBLE_STDOUT_CALLBACK=debug
 alias gbus='cd ~/garuda/platform/bus/'
+alias venv='source ~/venv/bin/activate'
+alias xenv='deactivate'
 
