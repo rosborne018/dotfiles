@@ -1,11 +1,17 @@
+" set the jk and kj keys as escape
+" make sure to disable one of these if you are writing about dijkstra
+:imap jk <Esc>
+:imap kj <Esc>
+
 " enable syntax highlighting
 syntax enable
 
 " set highlighting for matches
 set hlsearch
-
+"sets the highlighting off
+map <leader>, :nohlsearch<CR> 
 " color theme
-colo onedark
+colorscheme onedark
 
 " show line numbers
 set number
@@ -63,8 +69,14 @@ nmap <silent> <C-l> :wincmd l<CR>
 "remap <leader> + q  to delete frame
 nmap <silent> <leader>q :hide <CR>
 
+" airline settings
+let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#left_sep = ' '
+let g:airline#extensions#tabline#left_alt_sep = '|'
+let g:airline#extensions#tabline#formatter = 'default'
 
-" ctrlp settings
+
+"irline#extensions#tabline#formatter = 'default' ctrlp settings
 " sets the ctrlp to open in a new tab
 let g:ctrlp_prompt_mappings = {
     \ 'AcceptSelection("e")': ['<2-LeftMouse>'],

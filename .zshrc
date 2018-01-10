@@ -102,6 +102,9 @@ alias gbus='cd ~/garuda/platform/bus/'
 alias venv='source ~/venv/bin/activate'
 alias venv2='source ~/venv2/bin/activate'
 alias xenv='deactivate'
+alias vssh='vagrant ssh'
+alias vup='vagrant up'
+alias vp='vagrant provision'
 
 alias hgrep='history | grep -i '
 alias pgrep="ps aux | grep -i"
@@ -112,8 +115,8 @@ alias gsm="git commit -am '-'; git push origin master"
 
 del () { mv "$@" ~/trash/ }
 
-HISTSIZE=100000
-SAVEHIST=100000
+HISTSIZE=10000000
+SAVEHIST=10000000
 #search backwards and forwards with a pattern
 bindkey -M vicmd '/' history-incremental-pattern-search-backward
 bindkey -M vicmd '?' history-incremental-pattern-search-forward
@@ -122,3 +125,5 @@ bindkey -M vicmd '?' history-incremental-pattern-search-forward
 bindkey -M viins '^R' history-incremental-pattern-search-backward
 bindkey -M viins '^F' history-incremental-pattern-search-forward
 bindkey "^[[B" down-line-or-beginning-search # Down
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
