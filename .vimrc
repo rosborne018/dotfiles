@@ -31,6 +31,12 @@ set showcmd
 " leader keys
 let mapleader = " "
 
+"redraw only when it needs to
+set lazyredraw
+
+" braces highlight matchinng
+set showmatch
+
 " reload vimrc
 :map <leader>r :source ~/.vimrc <CR>
 " start fuzzy find
@@ -39,20 +45,18 @@ let mapleader = " "
 :map <leader>H :tabp <CR>
 " tab right
 :map <leader>L :tabn <CR>
+"tab new blank
+:map <leader>t :tabedit <CR>
 
 "remap <leader> + hjkl to move accross frames
-nmap <silent> <leader>k :wincmd k<CR>
-nmap <silent> <leader>j :wincmd j<CR>
-nmap <silent> <leader>h :wincmd h<CR>
-nmap <silent> <leader>l :wincmd l<CR>
+nmap <silent> <C-k> :wincmd k<CR>
+nmap <silent> <C-j> :wincmd j<CR>
+nmap <silent> <C-h> :wincmd h<CR>
+nmap <silent> <C-l> :wincmd l<CR>
 
 "remap <leader> + q  to delete frame
 nmap <silent> <leader>q :hide <CR>
 
-
-
-" airline settings
-let g:airline_theme='badwolf'
 
 " ctrlp settings
 " sets the ctrlp to open in a new tab
@@ -60,13 +64,16 @@ let g:ctrlp_prompt_mappings = {
     \ 'AcceptSelection("e")': ['<2-LeftMouse>'],
     \ 'AcceptSelection("t")': ['<cr>'],
     \ }
+let g:ctrlp_show_hidden = 1 " allow search for dotfiles
 " autosave
 let g:auto_save = 1  " enable AutoSave on Vim startup
+let g:auto_save_in_insert_mode = 0  " do not save while in insert mode
 
 call plug#begin('~/.vim/plugged')
 Plug 'tpope/vim-surround'
-Plug 'vim-airline/vim-airline'
-Plug 'vim-airline/vim-airline-themes'
+Plug 'Shougo/denite.nvim'
+Plug 'powerline/powerline'
 Plug 'kien/ctrlp.vim'
 Plug 'vim-scripts/vim-auto-save'
+Plug 'Valloric/YouCompleteMe'
 call plug#end()
