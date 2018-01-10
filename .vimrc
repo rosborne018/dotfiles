@@ -1,6 +1,12 @@
 " enable syntax highlighting
 syntax enable
 
+" set highlighting for matches
+set hlsearch
+
+" color theme
+colo onedark
+
 " show line numbers
 set number
 
@@ -71,9 +77,11 @@ let g:auto_save_in_insert_mode = 0  " do not save while in insert mode
 
 call plug#begin('~/.vim/plugged')
 Plug 'tpope/vim-surround'
-Plug 'Shougo/denite.nvim'
-Plug 'powerline/powerline'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 Plug 'kien/ctrlp.vim'
 Plug 'vim-scripts/vim-auto-save'
 Plug 'Valloric/YouCompleteMe'
+Plug 'joshdick/onedark.vim'
+Plug 'junegunn/fzf.vim'
 call plug#end()
