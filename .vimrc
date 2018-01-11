@@ -87,6 +87,16 @@ let g:ctrlp_show_hidden = 1 " allow search for dotfiles
 let g:auto_save = 1  " enable AutoSave on Vim startup
 let g:auto_save_in_insert_mode = 0  " do not save while in insert mode
 
+"syntactics recommended settings
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
+
 call plug#begin('~/.vim/plugged')
 Plug 'tpope/vim-surround'
 Plug 'vim-airline/vim-airline'
@@ -96,4 +106,5 @@ Plug 'vim-scripts/vim-auto-save'
 Plug 'Valloric/YouCompleteMe'
 Plug 'joshdick/onedark.vim'
 Plug 'junegunn/fzf.vim'
+Plug 'vim-syntastic/syntastic'
 call plug#end()
