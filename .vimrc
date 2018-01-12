@@ -7,7 +7,7 @@
 syntax enable
 
 "code folding for python
-set foldmethod=indent
+"set foldmethod=indent
 
 
 " set highlighting for matches
