@@ -6,6 +6,10 @@
 " enable syntax highlighting
 syntax enable
 
+"code folding for python
+set foldmethod=indent
+
+
 " set highlighting for matches
 set hlsearch
 "sets the highlighting off
