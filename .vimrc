@@ -54,7 +54,7 @@ set lazyredraw
 set showmatch
 
 " reload vimrc
-:map <leader>r :source ~/.vimrc <CR>
+:map <leader>R :source ~/.vimrc <CR>
 " start fuzzy find
 :map <leader>f :CtrlP <CR>
 " tab left
@@ -101,6 +101,16 @@ let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 
+" jedi-vim
+
+let g:jedi#goto_command = "<leader>d"
+let g:jedi#goto_assignments_command = "<leader>g"
+let g:jedi#goto_definitions_command = ""
+let g:jedi#documentation_command = "K"
+let g:jedi#usages_command = "<leader>n"
+let g:jedi#completions_command = "<C-Space>"
+let g:jedi#rename_command = "<leader>r"
+
 call plug#begin('~/.vim/plugged')
 Plug 'tpope/vim-surround'
 Plug 'vim-airline/vim-airline'
@@ -110,5 +120,6 @@ Plug 'vim-scripts/vim-auto-save'
 Plug 'Valloric/YouCompleteMe'
 Plug 'joshdick/onedark.vim'
 Plug 'junegunn/fzf.vim'
+"Plug 'davidhalter/jedi-vim'
 " Plug 'vim-syntastic/syntastic'
 call plug#end()
