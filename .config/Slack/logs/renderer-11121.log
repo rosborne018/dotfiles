@@ -1,0 +1,63 @@
+[01/14/18, 22:19:44:330] info: ╔═════════════════════════════════════════════════════════════════════════════════╗
+[01/14/18, 22:19:44:331] info: ║      Slack 3.0.2, linux 4.13.0-26-generic on x64 at 01/14/18, 22:19:44:324      ║
+[01/14/18, 22:19:44:331] info: ╚═════════════════════════════════════════════════════════════════════════════════╝
+[01/14/18, 22:19:44:550] info: Initializing local storage instance at path: /home/ryan/.config/Slack/local-settings.json
+[01/14/18, 22:19:47:340] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "loaded",
+  "teamId": "T2616ES0G"
+}
+[01/14/18, 22:19:47:503] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T2616ES0G"
+}
+[01/14/18, 22:19:47:797] info: Store: SELECT_CHANNEL D8QBTJ0A2
+[01/14/18, 22:19:47:801] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US"
+}
+[01/14/18, 22:19:48:694] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "T2616ES0G",
+  "theme": {
+    "active_item": "#4C9689",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#38978D",
+    "badge": "#EB4D5C",
+    "column_bg": "#4D394B",
+    "hover_item": "#3E313C",
+    "menu_bg": "#3E313C",
+    "text_color": "#FFFFFF"
+  }
+}
+[01/14/18, 22:19:48:953] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-01-25/132842497927_0dbc3c6e7e03990332f5_102.png",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-01-25/132842497927_0dbc3c6e7e03990332f5_132.png",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-01-25/132842497927_0dbc3c6e7e03990332f5_230.png",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-01-25/132842497927_0dbc3c6e7e03990332f5_34.png",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-01-25/132842497927_0dbc3c6e7e03990332f5_44.png",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-01-25/132842497927_0dbc3c6e7e03990332f5_68.png",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-01-25/132842497927_0dbc3c6e7e03990332f5_88.png",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-01-25/132842497927_0dbc3c6e7e03990332f5_original.png"
+  },
+  "teamId": "T2616ES0G"
+}
+[01/14/18, 22:19:49:222] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T2616ES0G"
+}
+[01/14/18, 22:19:49:228] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "webapp-loaded",
+  "teamId": "T2616ES0G"
+}
+[01/14/18, 22:33:43:647] info: Store: RELOAD
+{
+  "everything": false
+}

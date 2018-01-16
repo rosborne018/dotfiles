@@ -1,0 +1,87 @@
+2018-01-08 11:38:13,364 DEBUG    root            Loaded Command Group: ['gcloud', 'init']
+2018-01-08 11:38:13,365 DEBUG    root            Running [gcloud.init] with arguments: []
+2018-01-08 11:38:13,365 INFO     ___FILE_ONLY___ Welcome! This command will take you through the configuration of gcloud.
+
+
+2018-01-08 11:38:13,366 INFO     ___FILE_ONLY___ Your current configuration has been set to: [default]
+
+
+2018-01-08 11:38:13,366 INFO     ___FILE_ONLY___ You can skip diagnostics next time by using the following flag:
+
+2018-01-08 11:38:13,366 INFO     ___FILE_ONLY___   gcloud init --skip-diagnostics
+
+
+2018-01-08 11:38:13,366 INFO     ___FILE_ONLY___ Network diagnostic detects and fixes local network connection issues.
+
+2018-01-08 11:38:13,366 INFO     ___FILE_ONLY___ Checking network connection...
+2018-01-08 11:38:15,370 INFO     ___FILE_ONLY___ Reachability Check passed.
+
+2018-01-08 11:38:15,371 INFO     ___FILE_ONLY___ Network diagnostic (1/1 checks) passed.
+
+
+2018-01-08 11:38:54,588 DEBUG    root            Loaded Command Group: ['gcloud', 'auth']
+2018-01-08 11:38:54,590 DEBUG    root            Loaded Command Group: ['gcloud', 'auth', 'login']
+2018-01-08 11:38:54,591 INFO     root            Executing: [gcloud auth login --force --brief]
+2018-01-08 11:38:54,592 DEBUG    root            Running [gcloud.auth.login] with arguments: [--brief: "True", --force: "True"]
+2018-01-08 11:38:54,601 INFO     ___FILE_ONLY___ Your browser has been opened to visit:
+
+    https://accounts.google.com/o/oauth2/auth?redirect_uri=http%3A%2F%2Flocalhost%3A8085%2F&prompt=select_account&response_type=code&client_id=32555940559.apps.googleusercontent.com&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fappengine.admin+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcompute+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Faccounts.reauth&access_type=offline
+
+
+
+2018-01-08 11:39:01,864 INFO     oauth2client.client Successfully retrieved access token
+2018-01-08 11:39:01,877 INFO     root            Display format "none".
+2018-01-08 11:39:01,879 DEBUG    root            SDK update checks are disabled.
+2018-01-08 11:39:01,879 INFO     ___FILE_ONLY___ You are logged in as: [rosborne-intern@bbmtek.com].
+
+
+2018-01-08 11:39:32,221 INFO     ___FILE_ONLY___ Your current project has been set to: [bbm-staging].
+
+
+2018-01-08 11:39:32,221 DEBUG    root            Loaded Command Group: ['gcloud', 'compute', 'project_info']
+2018-01-08 11:39:32,229 DEBUG    root            Loaded Command Group: ['gcloud', 'compute', 'project-info', 'describe']
+2018-01-08 11:39:32,230 INFO     root            Executing: [gcloud compute project-info describe]
+2018-01-08 11:39:32,231 DEBUG    root            Running [gcloud.compute.project-info.describe] with arguments: [--no-user-output-enabled: "false", --verbosity: "none"]
+2018-01-08 11:39:32,611 INFO     root            Display disabled.
+2018-01-08 11:39:32,611 DEBUG    root            SDK update checks are disabled.
+2018-01-08 11:39:32,617 DEBUG    root            Loaded Command Group: ['gcloud', 'compute', 'zones']
+2018-01-08 11:39:32,618 DEBUG    root            Loaded Command Group: ['gcloud', 'compute', 'zones', 'describe']
+2018-01-08 11:39:32,619 INFO     root            Executing: [gcloud compute zones describe us-east1]
+2018-01-08 11:39:32,620 DEBUG    root            Running [gcloud.compute.zones.describe] with arguments: [--no-user-output-enabled: "false", --verbosity: "none", NAME: "us-east1"]
+2018-01-08 11:39:32,833 DEBUG    root            (gcloud.compute.zones.describe) Could not fetch resource:
+ - The resource 'projects/bbm-staging/zones/us-east1' was not found
+Traceback (most recent call last):
+  File "/usr/lib/google-cloud-sdk/lib/googlecloudsdk/calliope/cli.py", line 791, in Execute
+    resources = calliope_command.Run(cli=self, args=args)
+  File "/usr/lib/google-cloud-sdk/lib/googlecloudsdk/calliope/backend.py", line 756, in Run
+    resources = command_instance.Run(args)
+  File "/usr/lib/google-cloud-sdk/lib/surface/compute/zones/describe.py", line 44, in Run
+    request)])[0]
+  File "/usr/lib/google-cloud-sdk/lib/googlecloudsdk/api_lib/compute/client_adapter.py", line 89, in MakeRequests
+    errors, error_message='Could not fetch resource:')
+  File "/usr/lib/google-cloud-sdk/lib/googlecloudsdk/api_lib/compute/utils.py", line 106, in RaiseToolException
+    RaiseException(problems, calliope_exceptions.ToolException, error_message)
+  File "/usr/lib/google-cloud-sdk/lib/googlecloudsdk/api_lib/compute/utils.py", line 118, in RaiseException
+    errors))
+ToolException: Could not fetch resource:
+ - The resource 'projects/bbm-staging/zones/us-east1' was not found
+
+2018-01-08 11:39:32,834 ERROR    root            (gcloud.compute.zones.describe) Could not fetch resource:
+ - The resource 'projects/bbm-staging/zones/us-east1' was not found
+
+2018-01-08 11:39:32,834 INFO     root            [compute zones describe us-east1] has failed
+
+2018-01-08 11:39:32,834 DEBUG    root            (gcloud.init) Failed command: [compute zones describe us-east1] with exit code [1]
+Traceback (most recent call last):
+  File "/usr/lib/google-cloud-sdk/lib/googlecloudsdk/calliope/cli.py", line 791, in Execute
+    resources = calliope_command.Run(cli=self, args=args)
+  File "/usr/lib/google-cloud-sdk/lib/googlecloudsdk/calliope/backend.py", line 756, in Run
+    resources = command_instance.Run(args)
+  File "/usr/lib/google-cloud-sdk/lib/surface/init.py", line 129, in Run
+    self._PickDefaultRegionAndZone()
+  File "/usr/lib/google-cloud-sdk/lib/surface/init.py", line 347, in _PickDefaultRegionAndZone
+    [default_zone])
+  File "/usr/lib/google-cloud-sdk/lib/surface/init.py", line 480, in _RunCmd
+    raise c_exc.FailedSubCommand(cmd + params, exc.code)
+FailedSubCommand: Failed command: [compute zones describe us-east1] with exit code [1]
+2018-01-08 11:39:32,834 ERROR    root            (gcloud.init) Failed command: [compute zones describe us-east1] with exit code [1]

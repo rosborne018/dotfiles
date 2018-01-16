@@ -1,0 +1,20 @@
+[01/09/18, 16:04:41:818] info: ╔═════════════════════════════════════════════════════════════════════════════════╗
+[01/09/18, 16:04:41:819] info: ║      Slack 3.0.2, linux 4.10.0-42-generic on x64 at 01/09/18, 16:04:41:814      ║
+[01/09/18, 16:04:41:819] info: ╚═════════════════════════════════════════════════════════════════════════════════╝
+[01/09/18, 16:04:41:927] info: Initializing local storage instance at path: /home/ryan/.config/Slack/local-settings.json
+[01/09/18, 16:04:45:086] info: Store: SELECT_CHANNEL D8Q7WSTJ7
+[01/09/18, 16:04:45:091] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US"
+}
+[01/09/18, 16:04:45:094] info: Store: UPDATE_SETTINGS
+{
+  "locale": "en-US"
+}
+[01/09/18, 16:04:45:568] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "loaded",
+  "teamId": "T2616ES0G"
+}
+[01/09/18, 16:04:45:574] info: Store: MAIN_WINDOW_SHOWN

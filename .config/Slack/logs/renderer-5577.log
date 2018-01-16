@@ -1,0 +1,253 @@
+[01/12/18, 08:22:52:585] info: ╔═════════════════════════════════════════════════════════════════════════════════╗
+[01/12/18, 08:22:52:585] info: ║      Slack 3.0.2, linux 4.13.0-26-generic on x64 at 01/12/18, 08:22:52:582      ║
+[01/12/18, 08:22:52:586] info: ╚═════════════════════════════════════════════════════════════════════════════════╝
+[01/12/18, 08:22:52:686] info: Initializing local storage instance at path: /home/ryan/.config/Slack/local-settings.json
+[01/12/18, 08:22:52:974] info: updateSuspendResume: true
+[01/12/18, 08:22:52:975] warn: updateSpellcheckerLanguage: Tried to update language, but spellchecker not initialized
+[01/12/18, 08:22:56:636] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "loaded",
+  "teamId": "T2616ES0G"
+}
+[01/12/18, 08:22:56:639] info: Store: MAIN_WINDOW_SHOWN
+[01/12/18, 08:22:56:779] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T2616ES0G"
+}
+[01/12/18, 08:22:56:790] error: 2018/1/12 08:22:56.789 logging error: {"subtype":"api_call_error","message":"{\"ok\":false,\"error\":\"not_allowed\"}","stack":"Error\n    at Object.n [as logError] (https://a.slack-edge.com/bv1-1/rollup-core_required_ts.752ea57ab627114c2025.min.js:1:62496)\n    at e (https://a.slack-edge.com/bv1-1/rollup-secondary_a_required.0c6a1f876a0f121ffa2f.min.js:1:135638)\n    at e (https://a.slack-edge.com/bv1-1/rollup-secondary_a_required.0c6a1f876a0f121ffa2f.min.js:1:130837)\n    at e (https://a.slack-edge.com/bv1-1/rollup-secondary_a_required.0c6a1f876a0f121ffa2f.min.js:1:132432)\n    at XMLHttpRequest.m.onreadystatechange (https://a.slack-edge.com/bv1-1/rollup-secondary_a_required.0c6a1f876a0f121ffa2f.min.js:1:134130)"}
+[01/12/18, 08:22:56:791] info: Store: SELECT_CHANNEL D8QBTJ0A2
+[01/12/18, 08:22:56:792] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US"
+}
+[01/12/18, 08:22:56:792] info: Store: UPDATE_SETTINGS
+{
+  "locale": "en-US"
+}
+[01/12/18, 08:22:56:997] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "T2616ES0G",
+  "theme": {
+    "active_item": "#4C9689",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#38978D",
+    "badge": "#EB4D5C",
+    "column_bg": "#4D394B",
+    "hover_item": "#3E313C",
+    "menu_bg": "#3E313C",
+    "text_color": "#FFFFFF"
+  }
+}
+[01/12/18, 08:22:57:491] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-01-25/132842497927_0dbc3c6e7e03990332f5_102.png",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-01-25/132842497927_0dbc3c6e7e03990332f5_132.png",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-01-25/132842497927_0dbc3c6e7e03990332f5_230.png",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-01-25/132842497927_0dbc3c6e7e03990332f5_34.png",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-01-25/132842497927_0dbc3c6e7e03990332f5_44.png",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-01-25/132842497927_0dbc3c6e7e03990332f5_68.png",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-01-25/132842497927_0dbc3c6e7e03990332f5_88.png",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-01-25/132842497927_0dbc3c6e7e03990332f5_original.png"
+  },
+  "teamId": "T2616ES0G"
+}
+[01/12/18, 08:22:57:494] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1,
+    18
+  ],
+  "size": [
+    1918,
+    1042
+  ]
+}
+[01/12/18, 08:22:57:495] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T2616ES0G"
+}
+[01/12/18, 08:22:57:495] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "webapp-loaded",
+  "teamId": "T2616ES0G"
+}
+[01/12/18, 08:22:58:394] info: Raw Locale list: ["C","C.UTF-8","en_AG","en_AG.utf8","en_AU.utf8","en_BW.utf8","en_CA.utf8","en_DK.utf8","en_GB.utf8","en_HK.utf8","en_IE.utf8","en_IN","en_IN.utf8","en_NG","en_NG.utf8","en_NZ.utf8","en_PH.utf8","en_SG.utf8","en_US.utf8","en_ZA.utf8","en_ZM","en_ZM.utf8","en_ZW.utf8","POSIX",""]
+[01/12/18, 08:22:58:394] info: Filtered Locale list: ["en_AG","en_AG","en_AU","en_BW","en_CA","en_DK","en_GB","en_HK","en_IE","en_IN","en_IN","en_NG","en_NG","en_NZ","en_PH","en_SG","en_US","en_ZA","en_ZM","en_ZM","en_ZW"]
+[01/12/18, 08:22:58:394] info: Counts: {"en":["en_AG","en_AG","en_AU","en_BW","en_CA","en_DK","en_GB","en_HK","en_IE","en_IN","en_IN","en_NG","en_NG","en_NZ","en_PH","en_SG","en_US","en_ZA","en_ZM","en_ZM","en_ZW"]}
+[01/12/18, 08:22:58:396] info: Result: {"en":"en-CA"}
+[01/12/18, 08:22:58:398] info: Requesting to load en-CA, alternatives are ["en-CA","en-CA","en-US"]
+[01/12/18, 08:22:58:399] info: Loading dictionary for language en-CA
+[01/12/18, 08:22:58:400] info: Returning local copy: /home/ryan/.config/Slack/dictionaries/en-CA.bdic
+[01/12/18, 08:22:58:404] info: Setting current spellchecker to en-CA, requested language was en-CA
+[01/12/18, 08:22:58:404] info: Creating node-spellchecker instance
+[01/12/18, 08:22:58:405] info: Actually installing spell check provider to Electron
+[01/12/18, 08:28:22:493] info: Unloading spellchecker
+[01/12/18, 08:28:22:496] info: Restoring spellchecker
+[01/12/18, 08:28:22:498] info: Loading dictionary for language en-CA
+[01/12/18, 08:28:22:499] info: Returning local copy: /home/ryan/.config/Slack/dictionaries/en-CA.bdic
+[01/12/18, 08:28:22:511] info: Setting current spellchecker to en-CA, requested language was en-CA
+[01/12/18, 08:28:22:511] info: Creating node-spellchecker instance
+[01/12/18, 08:28:23:483] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1,
+    18
+  ],
+  "size": [
+    1918,
+    1042
+  ]
+}
+[01/12/18, 08:28:27:914] info: Store: SELECT_CHANNEL C2THZDE65
+[01/12/18, 08:28:28:332] info: Loading dictionary for language en-CA
+[01/12/18, 08:28:28:333] info: Returning local copy: /home/ryan/.config/Slack/dictionaries/en-CA.bdic
+[01/12/18, 08:28:28:334] info: Setting current spellchecker to en-CA, requested language was en-CA
+[01/12/18, 08:28:34:413] info: Store: SELECT_CHANNEL C5BB1LT4J
+[01/12/18, 08:28:35:940] info: Store: SELECT_CHANNEL C72NXARUL
+[01/12/18, 08:28:36:382] info: Loading dictionary for language en-CA
+[01/12/18, 08:28:36:382] info: Returning local copy: /home/ryan/.config/Slack/dictionaries/en-CA.bdic
+[01/12/18, 08:28:36:383] info: Setting current spellchecker to en-CA, requested language was en-CA
+[01/12/18, 08:28:36:384] info: Loading dictionary for language en-CA
+[01/12/18, 08:28:36:384] info: Returning local copy: /home/ryan/.config/Slack/dictionaries/en-CA.bdic
+[01/12/18, 08:28:36:385] info: Setting current spellchecker to en-CA, requested language was en-CA
+[01/12/18, 08:28:38:064] info: Store: SELECT_CHANNEL C262NGW94
+[01/12/18, 08:28:38:098] info: Loading dictionary for language en-CA
+[01/12/18, 08:28:38:098] info: Returning local copy: /home/ryan/.config/Slack/dictionaries/en-CA.bdic
+[01/12/18, 08:28:38:104] info: Setting current spellchecker to en-CA, requested language was en-CA
+[01/12/18, 08:28:41:735] info: Store: SELECT_CHANNEL C72NXARUL
+[01/12/18, 08:28:41:748] info: Loading dictionary for language en-CA
+[01/12/18, 08:28:41:748] info: Returning local copy: /home/ryan/.config/Slack/dictionaries/en-CA.bdic
+[01/12/18, 08:28:41:749] info: Setting current spellchecker to en-CA, requested language was en-CA
+[01/12/18, 08:28:45:299] info: Store: SELECT_CHANNEL G3AMQF8US
+[01/12/18, 08:28:45:430] info: Loading dictionary for language en-CA
+[01/12/18, 08:28:45:431] info: Returning local copy: /home/ryan/.config/Slack/dictionaries/en-CA.bdic
+[01/12/18, 08:28:45:449] info: Setting current spellchecker to en-CA, requested language was en-CA
+[01/12/18, 08:28:49:234] info: Store: SELECT_CHANNEL C44EZRM7C
+[01/12/18, 08:28:49:264] info: Loading dictionary for language en-CA
+[01/12/18, 08:28:49:264] info: Returning local copy: /home/ryan/.config/Slack/dictionaries/en-CA.bdic
+[01/12/18, 08:28:49:280] info: Setting current spellchecker to en-CA, requested language was en-CA
+[01/12/18, 08:28:51:958] info: Store: SELECT_CHANNEL C5K0V0MS5
+[01/12/18, 08:28:52:000] info: Loading dictionary for language en-CA
+[01/12/18, 08:28:52:001] info: Returning local copy: /home/ryan/.config/Slack/dictionaries/en-CA.bdic
+[01/12/18, 08:28:52:031] info: Setting current spellchecker to en-CA, requested language was en-CA
+[01/12/18, 08:29:04:336] info: Store: SELECT_CHANNEL C6PGP4A1H
+[01/12/18, 08:29:04:672] info: Loading dictionary for language en-CA
+[01/12/18, 08:29:04:673] info: Returning local copy: /home/ryan/.config/Slack/dictionaries/en-CA.bdic
+[01/12/18, 08:29:04:673] info: Setting current spellchecker to en-CA, requested language was en-CA
+[01/12/18, 08:29:07:882] info: Store: SELECT_CHANNEL C5BB1LT4J
+[01/12/18, 08:29:13:493] info: Couldn't get hint text from messages in channel: Failed to fetch recent messages
+[01/12/18, 08:29:16:376] info: Store: SELECT_CHANNEL C261DLCDB
+[01/12/18, 08:29:18:467] info: Unloading spellchecker
+[01/12/18, 08:29:18:611] info: Loading dictionary for language en-CA
+[01/12/18, 08:29:18:611] info: Returning local copy: /home/ryan/.config/Slack/dictionaries/en-CA.bdic
+[01/12/18, 08:29:18:612] info: Setting current spellchecker to en-CA, requested language was en-CA
+[01/12/18, 08:29:18:612] info: Creating node-spellchecker instance
+[01/12/18, 08:40:33:224] info: Restoring spellchecker
+[01/12/18, 08:40:33:225] info: Loading dictionary for language en-CA
+[01/12/18, 08:40:33:225] info: Returning local copy: /home/ryan/.config/Slack/dictionaries/en-CA.bdic
+[01/12/18, 08:40:33:241] info: Setting current spellchecker to en-CA, requested language was en-CA
+[01/12/18, 08:40:33:665] info: Unloading spellchecker
+[01/12/18, 08:40:34:144] info: Restoring spellchecker
+[01/12/18, 08:40:34:147] info: Loading dictionary for language en-CA
+[01/12/18, 08:40:34:148] info: Returning local copy: /home/ryan/.config/Slack/dictionaries/en-CA.bdic
+[01/12/18, 08:40:34:166] info: Unloading spellchecker
+[01/12/18, 08:40:34:197] info: Restoring spellchecker
+[01/12/18, 08:40:34:198] info: Loading dictionary for language en-CA
+[01/12/18, 08:40:34:198] info: Returning local copy: /home/ryan/.config/Slack/dictionaries/en-CA.bdic
+[01/12/18, 08:40:34:216] info: Setting current spellchecker to en-CA, requested language was en-CA
+[01/12/18, 08:40:34:216] info: Creating node-spellchecker instance
+[01/12/18, 08:40:34:217] info: Setting current spellchecker to en-CA, requested language was en-CA
+[01/12/18, 08:40:35:133] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1,
+    18
+  ],
+  "size": [
+    1918,
+    1042
+  ]
+}
+[01/12/18, 08:41:05:393] info: Unloading spellchecker
+[01/12/18, 10:43:18:565] info: Restoring spellchecker
+[01/12/18, 10:43:18:566] info: Loading dictionary for language en-CA
+[01/12/18, 10:43:18:566] info: Returning local copy: /home/ryan/.config/Slack/dictionaries/en-CA.bdic
+[01/12/18, 10:43:18:574] info: Unloading spellchecker
+[01/12/18, 10:43:18:593] info: Restoring spellchecker
+[01/12/18, 10:43:18:593] info: Loading dictionary for language en-CA
+[01/12/18, 10:43:18:593] info: Returning local copy: /home/ryan/.config/Slack/dictionaries/en-CA.bdic
+[01/12/18, 10:43:18:626] info: Setting current spellchecker to en-CA, requested language was en-CA
+[01/12/18, 10:43:18:627] info: Creating node-spellchecker instance
+[01/12/18, 10:43:18:628] info: Setting current spellchecker to en-CA, requested language was en-CA
+[01/12/18, 10:43:19:554] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1,
+    18
+  ],
+  "size": [
+    1918,
+    1042
+  ]
+}
+[01/12/18, 10:43:20:222] info: Unloading spellchecker
+[01/12/18, 11:00:42:592] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[01/12/18, 11:00:42:593] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[01/12/18, 11:00:42:607] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T2616ES0G-U26D458G4-g953702da2b6-512",
+  "channel": "C44EZRM7C",
+  "content": "[REDACTED]",
+  "id": "AnR5C9hYWE2RjrJ",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C44EZRM7C&message=1515772842.000203&team=T2616ES0G",
+  "msg": "1515772842.000203",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T2616ES0G",
+  "title": "[REDACTED]"
+}
+[01/12/18, 11:00:46:653] info: Restoring spellchecker
+[01/12/18, 11:00:46:653] info: Loading dictionary for language en-CA
+[01/12/18, 11:00:46:653] info: Returning local copy: /home/ryan/.config/Slack/dictionaries/en-CA.bdic
+[01/12/18, 11:00:46:658] info: Unloading spellchecker
+[01/12/18, 11:00:46:669] info: Restoring spellchecker
+[01/12/18, 11:00:46:669] info: Loading dictionary for language en-CA
+[01/12/18, 11:00:46:669] info: Returning local copy: /home/ryan/.config/Slack/dictionaries/en-CA.bdic
+[01/12/18, 11:00:46:689] info: Setting current spellchecker to en-CA, requested language was en-CA
+[01/12/18, 11:00:46:690] info: Creating node-spellchecker instance
+[01/12/18, 11:00:46:691] info: Setting current spellchecker to en-CA, requested language was en-CA
+[01/12/18, 11:00:47:630] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1,
+    18
+  ],
+  "size": [
+    1918,
+    1042
+  ]
+}
+[01/12/18, 11:00:51:374] info: Store: SELECT_CHANNEL G3AMQF8US
+[01/12/18, 11:00:51:680] info: Loading dictionary for language en-CA
+[01/12/18, 11:00:51:680] info: Returning local copy: /home/ryan/.config/Slack/dictionaries/en-CA.bdic
+[01/12/18, 11:00:51:681] info: Setting current spellchecker to en-CA, requested language was en-CA
+[01/12/18, 11:00:56:783] info: Store: SELECT_CHANNEL C44EZRM7C
+[01/12/18, 11:00:56:825] info: Loading dictionary for language en-CA
+[01/12/18, 11:00:56:825] info: Returning local copy: /home/ryan/.config/Slack/dictionaries/en-CA.bdic
+[01/12/18, 11:00:56:834] info: Setting current spellchecker to en-CA, requested language was en-CA
+[01/12/18, 11:01:01:733] info: Store: SELECT_CHANNEL C6PGP4A1H
+[01/12/18, 11:01:01:780] info: Loading dictionary for language en-CA
+[01/12/18, 11:01:01:780] info: Returning local copy: /home/ryan/.config/Slack/dictionaries/en-CA.bdic
+[01/12/18, 11:01:01:813] info: Setting current spellchecker to en-CA, requested language was en-CA
+[01/12/18, 11:01:03:173] info: Unloading spellchecker

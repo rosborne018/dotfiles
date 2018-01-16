@@ -1,0 +1,33 @@
+[01/14/18, 22:59:25:877] info: ╔═════════════════════════════════════════════════════════════════════════════════╗
+[01/14/18, 22:59:25:878] info: ║      Slack 3.0.2, linux 4.13.0-26-generic on x64 at 01/14/18, 22:59:25:873      ║
+[01/14/18, 22:59:25:878] info: ╚═════════════════════════════════════════════════════════════════════════════════╝
+[01/14/18, 22:59:26:087] info: Initializing local storage instance at path: /home/ryan/.config/Slack/local-settings.json
+[01/14/18, 22:59:26:436] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "loaded",
+  "teamId": "T2616ES0G"
+}
+[01/14/18, 22:59:26:440] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "empty-page",
+  "teamId": "T2616ES0G"
+}
+[01/14/18, 22:59:26:441] info: Store: SET_NETWORK_STATUS offline
+[01/14/18, 22:59:26:544] warn: Tried to determine signed in status, but errored.
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[01/14/18, 22:59:26:546] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": null,
+  "teamId": "T2616ES0G"
+}
+[01/14/18, 22:59:28:808] info: Store: RELOAD
+{
+  "everything": false
+}

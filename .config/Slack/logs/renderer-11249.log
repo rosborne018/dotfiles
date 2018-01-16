@@ -1,0 +1,77 @@
+[01/14/18, 22:33:44:296] info: ╔═════════════════════════════════════════════════════════════════════════════════╗
+[01/14/18, 22:33:44:297] info: ║      Slack 3.0.2, linux 4.13.0-26-generic on x64 at 01/14/18, 22:33:44:293      ║
+[01/14/18, 22:33:44:297] info: ╚═════════════════════════════════════════════════════════════════════════════════╝
+[01/14/18, 22:33:44:388] info: Initializing local storage instance at path: /home/ryan/.config/Slack/local-settings.json
+[01/14/18, 22:33:44:657] info: updateSuspendResume: true
+[01/14/18, 22:33:44:658] warn: updateSpellcheckerLanguage: Tried to update language, but spellchecker not initialized
+[01/14/18, 22:33:48:130] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "loaded",
+  "teamId": "T2616ES0G"
+}
+[01/14/18, 22:33:48:146] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T2616ES0G"
+}
+[01/14/18, 22:33:48:160] error: 2018/1/14 22:33:48.160 logging error: {"subtype":"api_call_error","message":"{\"ok\":false,\"error\":\"not_allowed\"}","stack":"Error\n    at Object.n [as logError] (https://a.slack-edge.com/bv1-1/rollup-core_required_ts.aebd03f1d3094a6c7afd.min.js:1:62496)\n    at e (https://a.slack-edge.com/bv1-1/rollup-secondary_a_required.9549f10472383a21a111.min.js:1:135653)\n    at e (https://a.slack-edge.com/bv1-1/rollup-secondary_a_required.9549f10472383a21a111.min.js:1:130852)\n    at e (https://a.slack-edge.com/bv1-1/rollup-secondary_a_required.9549f10472383a21a111.min.js:1:132447)\n    at XMLHttpRequest.m.onreadystatechange (https://a.slack-edge.com/bv1-1/rollup-secondary_a_required.9549f10472383a21a111.min.js:1:134145)"}
+[01/14/18, 22:33:48:163] info: Store: SELECT_CHANNEL D8QBTJ0A2
+[01/14/18, 22:33:48:163] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US"
+}
+[01/14/18, 22:33:48:282] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "T2616ES0G",
+  "theme": {
+    "active_item": "#4C9689",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#38978D",
+    "badge": "#EB4D5C",
+    "column_bg": "#4D394B",
+    "hover_item": "#3E313C",
+    "menu_bg": "#3E313C",
+    "text_color": "#FFFFFF"
+  }
+}
+[01/14/18, 22:33:48:910] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-01-25/132842497927_0dbc3c6e7e03990332f5_102.png",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-01-25/132842497927_0dbc3c6e7e03990332f5_132.png",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-01-25/132842497927_0dbc3c6e7e03990332f5_230.png",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-01-25/132842497927_0dbc3c6e7e03990332f5_34.png",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-01-25/132842497927_0dbc3c6e7e03990332f5_44.png",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-01-25/132842497927_0dbc3c6e7e03990332f5_68.png",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-01-25/132842497927_0dbc3c6e7e03990332f5_88.png",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-01-25/132842497927_0dbc3c6e7e03990332f5_original.png"
+  },
+  "teamId": "T2616ES0G"
+}
+[01/14/18, 22:33:48:912] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T2616ES0G"
+}
+[01/14/18, 22:33:48:913] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "webapp-loaded",
+  "teamId": "T2616ES0G"
+}
+[01/14/18, 22:33:49:722] info: Raw Locale list: ["C","C.UTF-8","en_AG","en_AG.utf8","en_AU.utf8","en_BW.utf8","en_CA.utf8","en_DK.utf8","en_GB.utf8","en_HK.utf8","en_IE.utf8","en_IN","en_IN.utf8","en_NG","en_NG.utf8","en_NZ.utf8","en_PH.utf8","en_SG.utf8","en_US.utf8","en_ZA.utf8","en_ZM","en_ZM.utf8","en_ZW.utf8","POSIX",""]
+[01/14/18, 22:33:49:722] info: Filtered Locale list: ["en_AG","en_AG","en_AU","en_BW","en_CA","en_DK","en_GB","en_HK","en_IE","en_IN","en_IN","en_NG","en_NG","en_NZ","en_PH","en_SG","en_US","en_ZA","en_ZM","en_ZM","en_ZW"]
+[01/14/18, 22:33:49:722] info: Counts: {"en":["en_AG","en_AG","en_AU","en_BW","en_CA","en_DK","en_GB","en_HK","en_IE","en_IN","en_IN","en_NG","en_NG","en_NZ","en_PH","en_SG","en_US","en_ZA","en_ZM","en_ZM","en_ZW"]}
+[01/14/18, 22:33:49:723] info: Result: {"en":"en-CA"}
+[01/14/18, 22:33:49:724] info: Requesting to load en-CA, alternatives are ["en-CA","en-CA","en-US"]
+[01/14/18, 22:33:49:725] info: Loading dictionary for language en-CA
+[01/14/18, 22:33:49:726] info: Returning local copy: /home/ryan/.config/Slack/dictionaries/en-CA.bdic
+[01/14/18, 22:33:49:744] info: Setting current spellchecker to en-CA, requested language was en-CA
+[01/14/18, 22:33:49:744] info: Creating node-spellchecker instance
+[01/14/18, 22:33:49:745] info: Actually installing spell check provider to Electron
+[01/14/18, 22:59:25:463] info: Store: RELOAD
+{
+  "everything": false
+}
+[01/14/18, 22:59:25:465] info: Window is unloading, winssb is no longer accessible

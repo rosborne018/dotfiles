@@ -1,0 +1,29 @@
+[01/14/18, 22:59:25:942] info: ╔═════════════════════════════════════════════════════════════════════════════════╗
+[01/14/18, 22:59:25:943] info: ║      Slack 3.0.2, linux 4.13.0-26-generic on x64 at 01/14/18, 22:59:25:939      ║
+[01/14/18, 22:59:25:943] info: ╚═════════════════════════════════════════════════════════════════════════════════╝
+[01/14/18, 22:59:26:037] info: Initializing local storage instance at path: /home/ryan/.config/Slack/local-settings.json
+[01/14/18, 22:59:26:324] info: updateSuspendResume: true
+[01/14/18, 22:59:26:324] warn: updateSpellcheckerLanguage: Tried to update language, but spellchecker not initialized
+[01/14/18, 22:59:26:333] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "loaded",
+  "teamId": "T2616ES0G"
+}
+[01/14/18, 22:59:26:340] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "empty-page",
+  "teamId": "T2616ES0G"
+}
+[01/14/18, 22:59:26:346] info: Store: SET_NETWORK_STATUS offline
+[01/14/18, 22:59:26:546] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": null,
+  "teamId": "T2616ES0G"
+}
+[01/14/18, 22:59:28:807] info: Store: RELOAD
+{
+  "everything": false
+}
+[01/14/18, 22:59:28:815] info: Window is unloading, winssb is no longer accessible

@@ -1,0 +1,1998 @@
+[01/09/18, 16:04:41:619] info: ╔═════════════════════════════════════════════════════════════════════════════════╗
+[01/09/18, 16:04:41:623] info: ║      Slack 3.0.2, linux 4.10.0-42-generic on x64 at 01/09/18, 16:04:41:614      ║
+[01/09/18, 16:04:41:623] info: ╚═════════════════════════════════════════════════════════════════════════════════╝
+[01/09/18, 16:04:41:860] info: Initializing local storage instance at path: /home/ryan/.config/Slack/local-settings.json
+[01/09/18, 16:04:45:085] info: Store: SELECT_CHANNEL D8Q7WSTJ7
+[01/09/18, 16:04:45:091] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US"
+}
+[01/09/18, 16:04:45:094] info: Store: UPDATE_SETTINGS
+{
+  "locale": "en-US"
+}
+[01/09/18, 16:04:45:561] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "loaded",
+  "teamId": "T2616ES0G"
+}
+[01/09/18, 16:04:45:572] info: Store: MAIN_WINDOW_SHOWN
+[01/09/18, 16:04:45:698] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "T2616ES0G",
+  "theme": {
+    "active_item": "#4C9689",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#38978D",
+    "badge": "#EB4D5C",
+    "column_bg": "#4D394B",
+    "hover_item": "#3E313C",
+    "menu_bg": "#3E313C",
+    "text_color": "#FFFFFF"
+  }
+}
+[01/09/18, 16:04:45:740] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T2616ES0G"
+}
+[01/09/18, 16:04:45:794] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-01-25/132842497927_0dbc3c6e7e03990332f5_102.png",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-01-25/132842497927_0dbc3c6e7e03990332f5_132.png",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-01-25/132842497927_0dbc3c6e7e03990332f5_230.png",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-01-25/132842497927_0dbc3c6e7e03990332f5_34.png",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-01-25/132842497927_0dbc3c6e7e03990332f5_44.png",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-01-25/132842497927_0dbc3c6e7e03990332f5_68.png",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-01-25/132842497927_0dbc3c6e7e03990332f5_88.png",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-01-25/132842497927_0dbc3c6e7e03990332f5_original.png"
+  },
+  "teamId": "T2616ES0G"
+}
+[01/09/18, 16:04:45:883] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T2616ES0G"
+}
+[01/09/18, 16:04:45:889] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "webapp-loaded",
+  "teamId": "T2616ES0G"
+}
+[01/09/18, 16:04:46:591] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    2881,
+    1
+  ],
+  "size": [
+    958,
+    1179
+  ]
+}
+[01/09/18, 16:04:51:324] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    961,
+    1
+  ],
+  "size": [
+    958,
+    1059
+  ]
+}
+[01/09/18, 16:04:53:032] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1,
+    18
+  ],
+  "size": [
+    1918,
+    1042
+  ]
+}
+[01/09/18, 16:14:23:947] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1,
+    18
+  ],
+  "size": [
+    1918,
+    1042
+  ]
+}
+[01/09/18, 16:16:33:519] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1,
+    18
+  ],
+  "size": [
+    1918,
+    1042
+  ]
+}
+[01/09/18, 16:24:48:401] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1,
+    18
+  ],
+  "size": [
+    1918,
+    1042
+  ]
+}
+[01/09/18, 16:37:59:726] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1,
+    18
+  ],
+  "size": [
+    1918,
+    1042
+  ]
+}
+[01/09/18, 16:38:48:908] info: Store: SELECT_CHANNEL C2THZDE65
+[01/09/18, 16:38:59:109] info: Store: SELECT_CHANNEL C5BB1LT4J
+[01/09/18, 16:39:02:459] info: Store: SELECT_CHANNEL C262NGW94
+[01/09/18, 16:39:03:560] info: Store: SELECT_CHANNEL C72NXARUL
+[01/09/18, 16:39:11:180] info: Store: SELECT_CHANNEL C6PGP4A1H
+[01/09/18, 16:39:15:633] info: Store: SELECT_CHANNEL C261DLCDB
+[01/09/18, 16:42:30:105] info: Store: SELECT_CHANNEL C2THZDE65
+[01/09/18, 16:45:11:867] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1,
+    18
+  ],
+  "size": [
+    1918,
+    1042
+  ]
+}
+[01/09/18, 16:45:22:308] info: Store: SELECT_CHANNEL C6PGP4A1H
+[01/09/18, 16:47:17:264] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1,
+    18
+  ],
+  "size": [
+    1918,
+    1042
+  ]
+}
+[01/09/18, 16:47:18:712] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1,
+    18
+  ],
+  "size": [
+    1918,
+    1042
+  ]
+}
+[01/09/18, 16:47:20:714] info: Store: SELECT_CHANNEL C5BB1LT4J
+[01/09/18, 16:47:55:109] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1,
+    18
+  ],
+  "size": [
+    1918,
+    1042
+  ]
+}
+[01/09/18, 16:48:16:189] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1,
+    18
+  ],
+  "size": [
+    1918,
+    1042
+  ]
+}
+[01/09/18, 16:52:01:312] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1,
+    18
+  ],
+  "size": [
+    1918,
+    1042
+  ]
+}
+[01/10/18, 08:18:51:474] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-01-25/132842497927_0dbc3c6e7e03990332f5_102.png",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-01-25/132842497927_0dbc3c6e7e03990332f5_132.png",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-01-25/132842497927_0dbc3c6e7e03990332f5_230.png",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-01-25/132842497927_0dbc3c6e7e03990332f5_34.png",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-01-25/132842497927_0dbc3c6e7e03990332f5_44.png",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-01-25/132842497927_0dbc3c6e7e03990332f5_68.png",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-01-25/132842497927_0dbc3c6e7e03990332f5_88.png",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-01-25/132842497927_0dbc3c6e7e03990332f5_original.png"
+  },
+  "teamId": "T2616ES0G"
+}
+[01/10/18, 08:18:51:814] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T2616ES0G"
+}
+[01/10/18, 08:32:07:881] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1,
+    18
+  ],
+  "size": [
+    1918,
+    1042
+  ]
+}
+[01/10/18, 08:32:11:957] info: Store: SELECT_CHANNEL C2THZDE65
+[01/10/18, 08:32:20:777] info: Store: SELECT_CHANNEL C262NGW94
+[01/10/18, 08:32:29:832] info: Store: SELECT_CHANNEL C6PGP4A1H
+[01/10/18, 08:32:32:441] info: Store: SELECT_CHANNEL C2THZDE65
+[01/10/18, 08:48:11:764] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1,
+    18
+  ],
+  "size": [
+    1918,
+    1042
+  ]
+}
+[01/10/18, 08:48:15:374] info: Store: SELECT_CHANNEL C262NGW94
+[01/10/18, 08:48:22:924] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1,
+    18
+  ],
+  "size": [
+    1918,
+    1042
+  ]
+}
+[01/10/18, 09:28:57:928] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1,
+    18
+  ],
+  "size": [
+    1918,
+    1042
+  ]
+}
+[01/10/18, 09:29:01:397] info: Store: SELECT_CHANNEL C2B5LM1KN
+[01/10/18, 09:46:12:144] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T2616ES0G-U26D458G4-g953702da2b6-512",
+  "channel": "C44EZRM7C",
+  "content": "[REDACTED]",
+  "id": "v24EuWhAxpAoKlZ",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C44EZRM7C&message=1515595571.000149&team=T2616ES0G",
+  "msg": "1515595571.000149",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T2616ES0G",
+  "title": "[REDACTED]"
+}
+[01/10/18, 09:51:16:856] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T2616ES0G-U28QA1SMB-40771dea8ca9-512",
+  "channel": "D8QBTJ0A2",
+  "content": "[REDACTED]",
+  "id": "kR4pFki9LB900R7",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=D8QBTJ0A2&message=1515595876.000280&team=T2616ES0G",
+  "msg": "1515595876.000280",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T2616ES0G",
+  "title": "[REDACTED]"
+}
+[01/10/18, 09:51:31:075] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T2616ES0G-U28QA1SMB-40771dea8ca9-512",
+  "channel": "D8QBTJ0A2",
+  "content": "[REDACTED]",
+  "id": "jR4oFls7vo7ME26",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=D8QBTJ0A2&message=1515595890.000468&team=T2616ES0G",
+  "msg": "1515595890.000468",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T2616ES0G",
+  "title": "[REDACTED]"
+}
+[01/10/18, 09:51:51:662] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T2616ES0G-U28QA1SMB-40771dea8ca9-512",
+  "channel": "D8QBTJ0A2",
+  "content": "[REDACTED]",
+  "id": "R6GEFgtO5lOXKmZ",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=D8QBTJ0A2&message=1515595911.000347&team=T2616ES0G",
+  "msg": "1515595911.000347",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T2616ES0G",
+  "title": "[REDACTED]"
+}
+[01/10/18, 09:52:02:931] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T2616ES0G-U28QA1SMB-40771dea8ca9-512",
+  "channel": "D8QBTJ0A2",
+  "content": "[REDACTED]",
+  "id": "L9yxcQumplm18pp",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=D8QBTJ0A2&message=1515595922.000342&team=T2616ES0G",
+  "msg": "1515595922.000342",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T2616ES0G",
+  "title": "[REDACTED]"
+}
+[01/10/18, 09:57:39:726] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T2616ES0G-U28QA1SMB-40771dea8ca9-512",
+  "channel": "D8QBTJ0A2",
+  "content": "[REDACTED]",
+  "id": "wp4GcVCKj6KAOOK",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=D8QBTJ0A2&message=1515596259.000462&team=T2616ES0G",
+  "msg": "1515596259.000462",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T2616ES0G",
+  "title": "[REDACTED]"
+}
+[01/10/18, 09:58:30:440] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T2616ES0G-U28QA1SMB-40771dea8ca9-512",
+  "channel": "D8QBTJ0A2",
+  "content": "[REDACTED]",
+  "id": "W6NMFPFnGDnyJqA",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=D8QBTJ0A2&message=1515596310.000092&team=T2616ES0G",
+  "msg": "1515596310.000092",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T2616ES0G",
+  "title": "[REDACTED]"
+}
+[01/10/18, 09:58:42:500] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1,
+    18
+  ],
+  "size": [
+    1918,
+    1042
+  ]
+}
+[01/10/18, 09:58:46:139] info: Store: SELECT_CHANNEL C44EZRM7C
+[01/10/18, 09:58:53:558] info: Store: SELECT_CHANNEL D8QBTJ0A2
+[01/10/18, 10:00:25:843] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T2616ES0G-U28QA1SMB-40771dea8ca9-512",
+  "channel": "D8QBTJ0A2",
+  "content": "[REDACTED]",
+  "id": "YEPOtgHV5pVzo1P",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=D8QBTJ0A2&message=1515596425.000494&team=T2616ES0G",
+  "msg": "1515596425.000494",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T2616ES0G",
+  "title": "[REDACTED]"
+}
+[01/10/18, 10:09:55:156] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1,
+    18
+  ],
+  "size": [
+    1918,
+    1042
+  ]
+}
+[01/10/18, 10:09:58:570] info: Store: SELECT_CHANNEL C6PGP4A1H
+[01/10/18, 10:11:47:576] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1,
+    18
+  ],
+  "size": [
+    1918,
+    1042
+  ]
+}
+[01/10/18, 10:11:51:942] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1,
+    18
+  ],
+  "size": [
+    1918,
+    1042
+  ]
+}
+[01/10/18, 10:12:21:200] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1,
+    18
+  ],
+  "size": [
+    1918,
+    1042
+  ]
+}
+[01/10/18, 10:12:22:074] info: Store: SELECT_CHANNEL C5K0V0MS5
+[01/10/18, 10:19:13:621] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T2616ES0G-U28QA1SMB-40771dea8ca9-512",
+  "channel": "D8QBTJ0A2",
+  "content": "[REDACTED]",
+  "id": "82LRuBIMrNMGJn8",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=D8QBTJ0A2&message=1515597553.000101&team=T2616ES0G",
+  "msg": "1515597553.000101",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T2616ES0G",
+  "title": "[REDACTED]"
+}
+[01/10/18, 10:35:39:590] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1,
+    18
+  ],
+  "size": [
+    1918,
+    1042
+  ]
+}
+[01/10/18, 10:35:41:117] info: Store: SELECT_CHANNEL D8QBTJ0A2
+[01/10/18, 10:51:58:392] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1,
+    18
+  ],
+  "size": [
+    1918,
+    1042
+  ]
+}
+[01/10/18, 11:00:37:384] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1,
+    18
+  ],
+  "size": [
+    1918,
+    1042
+  ]
+}
+[01/10/18, 11:02:20:938] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1,
+    18
+  ],
+  "size": [
+    1918,
+    1042
+  ]
+}
+[01/10/18, 11:02:31:656] info: Store: START_DOWNLOAD
+{
+  "id": "F8QPDCUA0",
+  "teamId": "T2616ES0G",
+  "url": "[REDACTED]"
+}
+[01/10/18, 11:02:31:658] info: Store: UPDATE_DOWNLOAD
+{
+  "downloadState": "started",
+  "id": "F8QPDCUA0",
+  "teamId": "T2616ES0G"
+}
+[01/10/18, 11:02:31:816] info: Store: UPDATE_DOWNLOAD
+{
+  "downloadPath": "[REDACTED]",
+  "downloadState": "progressing",
+  "id": "F8QPDCUA0",
+  "requestState": null,
+  "teamId": "T2616ES0G"
+}
+[01/10/18, 11:02:31:821] info: Store: UPDATE_DOWNLOAD
+{
+  "id": "F8QPDCUA0",
+  "isPaused": false,
+  "progress": 0,
+  "teamId": "T2616ES0G"
+}
+[01/10/18, 11:02:31:826] info: Store: UPDATE_DOWNLOAD
+{
+  "id": "F8QPDCUA0",
+  "isPaused": false,
+  "progress": 1,
+  "teamId": "T2616ES0G"
+}
+[01/10/18, 11:02:31:828] info: Store: UPDATE_DOWNLOAD
+{
+  "id": "F8QPDCUA0",
+  "isPaused": false,
+  "progress": 1,
+  "teamId": "T2616ES0G"
+}
+[01/10/18, 11:02:31:834] info: Store: UPDATE_DOWNLOAD
+{
+  "id": "F8QPDCUA0",
+  "isPaused": false,
+  "progress": 1,
+  "teamId": "T2616ES0G"
+}
+[01/10/18, 11:02:31:836] info: Store: UPDATE_DOWNLOAD
+{
+  "id": "F8QPDCUA0",
+  "isPaused": false,
+  "progress": 1,
+  "teamId": "T2616ES0G"
+}
+[01/10/18, 11:02:31:845] info: Store: UPDATE_DOWNLOAD
+{
+  "downloadState": "completed",
+  "endTime": 1515600151844,
+  "id": "F8QPDCUA0",
+  "requestState": null,
+  "teamId": "T2616ES0G"
+}
+[01/10/18, 11:02:40:837] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1,
+    18
+  ],
+  "size": [
+    1918,
+    1042
+  ]
+}
+[01/10/18, 11:02:52:329] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1,
+    18
+  ],
+  "size": [
+    1918,
+    1042
+  ]
+}
+[01/10/18, 11:03:16:740] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1,
+    18
+  ],
+  "size": [
+    1918,
+    1042
+  ]
+}
+[01/10/18, 11:03:18:549] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1,
+    18
+  ],
+  "size": [
+    1918,
+    1042
+  ]
+}
+[01/10/18, 11:03:20:396] info: Store: SELECT_CHANNEL C262NGW94
+[01/10/18, 11:03:26:443] info: Store: SELECT_CHANNEL C5BB1LT4J
+[01/10/18, 11:03:31:627] info: Store: SELECT_CHANNEL C2B5LM1KN
+[01/10/18, 11:05:38:519] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1,
+    18
+  ],
+  "size": [
+    1918,
+    1042
+  ]
+}
+[01/10/18, 11:06:04:908] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1,
+    18
+  ],
+  "size": [
+    1918,
+    1042
+  ]
+}
+[01/10/18, 11:08:58:491] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1,
+    18
+  ],
+  "size": [
+    1918,
+    1042
+  ]
+}
+[01/10/18, 11:09:36:026] info: Store: SELECT_CHANNEL C6PGP4A1H
+[01/10/18, 11:09:38:487] info: Store: SELECT_CHANNEL C2B5LM1KN
+[01/10/18, 11:13:59:776] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T2616ES0G-U4WATL7AL-36b16fe57f33-512",
+  "channel": "G3AMQF8US",
+  "content": "[REDACTED]",
+  "id": "ERonFOSPW7ZRj2B",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=G3AMQF8US&message=1515600839.000219&team=T2616ES0G",
+  "msg": "1515600839.000219",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T2616ES0G",
+  "title": "[REDACTED]"
+}
+[01/10/18, 11:29:26:867] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1,
+    18
+  ],
+  "size": [
+    1918,
+    1042
+  ]
+}
+[01/10/18, 11:29:29:190] info: Store: SELECT_CHANNEL G3AMQF8US
+[01/10/18, 11:29:38:656] info: Store: SELECT_CHANNEL C72NXARUL
+[01/10/18, 12:53:53:606] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1,
+    18
+  ],
+  "size": [
+    1918,
+    1042
+  ]
+}
+[01/10/18, 12:53:57:714] info: Store: SELECT_CHANNEL C2B5LM1KN
+[01/10/18, 12:54:05:562] info: Store: SELECT_CHANNEL C5BB1LT4J
+[01/10/18, 12:54:10:923] info: Store: SELECT_CHANNEL G3AMQF8US
+[01/10/18, 12:54:16:096] info: Store: SELECT_CHANNEL C6PGP4A1H
+[01/10/18, 12:54:39:632] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T2616ES0G-U28QA1SMB-40771dea8ca9-512",
+  "channel": "D8QBTJ0A2",
+  "content": "[REDACTED]",
+  "id": "o24wukT6wYWo37l",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=D8QBTJ0A2&message=1515606879.000263&team=T2616ES0G",
+  "msg": "1515606879.000263",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T2616ES0G",
+  "title": "[REDACTED]"
+}
+[01/10/18, 12:54:44:039] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1,
+    18
+  ],
+  "size": [
+    1918,
+    1042
+  ]
+}
+[01/10/18, 12:54:46:121] info: Store: SELECT_CHANNEL D8QBTJ0A2
+[01/10/18, 12:54:53:943] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T2616ES0G-U28QA1SMB-40771dea8ca9-512",
+  "channel": "D8QBTJ0A2",
+  "content": "[REDACTED]",
+  "id": "L9yxc5Umplrg067",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=D8QBTJ0A2&message=1515606893.000368&team=T2616ES0G",
+  "msg": "1515606893.000368",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T2616ES0G",
+  "title": "[REDACTED]"
+}
+[01/10/18, 12:55:31:978] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T2616ES0G-U28QA1SMB-40771dea8ca9-512",
+  "channel": "D8QBTJ0A2",
+  "content": "[REDACTED]",
+  "id": "R6GEFPcO5lQQzWp",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=D8QBTJ0A2&message=1515606931.000391&team=T2616ES0G",
+  "msg": "1515606931.000391",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T2616ES0G",
+  "title": "[REDACTED]"
+}
+[01/10/18, 12:55:32:713] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T2616ES0G-U28QA1SMB-40771dea8ca9-512",
+  "channel": "D8QBTJ0A2",
+  "content": "[REDACTED]",
+  "id": "31DMc8fDk0YY1m2",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=D8QBTJ0A2&message=1515606932.000322&team=T2616ES0G",
+  "msg": "1515606932.000322",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T2616ES0G",
+  "title": "[REDACTED]"
+}
+[01/10/18, 12:57:44:273] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1,
+    18
+  ],
+  "size": [
+    1918,
+    1042
+  ]
+}
+[01/10/18, 13:03:26:569] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1,
+    18
+  ],
+  "size": [
+    1918,
+    1042
+  ]
+}
+[01/10/18, 13:03:30:943] info: Store: OPEN_CONTEXT_MENU
+{
+  "id": 3,
+  "params": "[REDACTED]"
+}
+[01/10/18, 13:09:47:664] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1,
+    18
+  ],
+  "size": [
+    1918,
+    1042
+  ]
+}
+[01/10/18, 13:10:09:578] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1,
+    18
+  ],
+  "size": [
+    1918,
+    1042
+  ]
+}
+[01/10/18, 13:13:39:406] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1,
+    18
+  ],
+  "size": [
+    1918,
+    1042
+  ]
+}
+[01/10/18, 13:14:04:155] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1,
+    18
+  ],
+  "size": [
+    1918,
+    1042
+  ]
+}
+[01/10/18, 13:14:49:025] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T2616ES0G-U28QA1SMB-40771dea8ca9-512",
+  "channel": "D8QBTJ0A2",
+  "content": "[REDACTED]",
+  "id": "1wAKCvhXxjyoNj7",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=D8QBTJ0A2&message=1515608088.000449&team=T2616ES0G",
+  "msg": "1515608088.000449",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T2616ES0G",
+  "title": "[REDACTED]"
+}
+[01/10/18, 13:14:57:005] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T2616ES0G-U28QA1SMB-40771dea8ca9-512",
+  "channel": "D8QBTJ0A2",
+  "content": "[REDACTED]",
+  "id": "ADk0I2iYWr25VvJ",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=D8QBTJ0A2&message=1515608096.000422&team=T2616ES0G",
+  "msg": "1515608096.000422",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T2616ES0G",
+  "title": "[REDACTED]"
+}
+[01/10/18, 13:15:05:500] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T2616ES0G-U28QA1SMB-40771dea8ca9-512",
+  "channel": "D8QBTJ0A2",
+  "content": "[REDACTED]",
+  "id": "W6NMF9snGD1MkPy",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=D8QBTJ0A2&message=1515608105.000027&team=T2616ES0G",
+  "msg": "1515608105.000027",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T2616ES0G",
+  "title": "[REDACTED]"
+}
+[01/10/18, 13:15:10:170] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1,
+    18
+  ],
+  "size": [
+    1918,
+    1042
+  ]
+}
+[01/10/18, 13:15:20:224] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1,
+    18
+  ],
+  "size": [
+    1918,
+    1042
+  ]
+}
+[01/10/18, 13:18:41:288] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1,
+    18
+  ],
+  "size": [
+    1918,
+    1042
+  ]
+}
+[01/10/18, 13:29:06:187] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1,
+    18
+  ],
+  "size": [
+    1918,
+    1042
+  ]
+}
+[01/10/18, 13:40:38:257] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1,
+    18
+  ],
+  "size": [
+    1918,
+    1042
+  ]
+}
+[01/10/18, 13:58:55:802] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1,
+    18
+  ],
+  "size": [
+    1918,
+    1042
+  ]
+}
+[01/10/18, 14:05:37:124] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T2616ES0G-U3QP1NLHM-6b5095dbadad-512",
+  "channel": "C261DLC2H",
+  "content": "[REDACTED]",
+  "id": "DknmIPtZYVBLE6g",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C261DLC2H&message=1515611135.000659&team=T2616ES0G",
+  "msg": "1515611135.000659",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T2616ES0G",
+  "title": "[REDACTED]"
+}
+[01/10/18, 14:06:39:284] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1,
+    18
+  ],
+  "size": [
+    1918,
+    1042
+  ]
+}
+[01/10/18, 14:06:46:013] info: Store: OPEN_CONTEXT_MENU
+{
+  "id": 3,
+  "params": "[REDACTED]"
+}
+[01/10/18, 14:24:45:382] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1,
+    18
+  ],
+  "size": [
+    1918,
+    1042
+  ]
+}
+[01/10/18, 14:24:50:154] info: Store: SELECT_CHANNEL C261DLC2H
+[01/10/18, 15:06:24:682] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1,
+    18
+  ],
+  "size": [
+    1918,
+    1042
+  ]
+}
+[01/10/18, 15:36:09:795] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1,
+    18
+  ],
+  "size": [
+    1918,
+    1042
+  ]
+}
+[01/10/18, 15:36:16:563] info: Store: SELECT_CHANNEL D8QBTJ0A2
+[01/10/18, 15:44:13:538] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1,
+    18
+  ],
+  "size": [
+    1918,
+    1042
+  ]
+}
+[01/10/18, 16:01:19:471] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1,
+    18
+  ],
+  "size": [
+    1918,
+    1042
+  ]
+}
+[01/10/18, 16:24:59:545] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1,
+    18
+  ],
+  "size": [
+    1918,
+    1042
+  ]
+}
+[01/10/18, 16:49:58:850] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1,
+    18
+  ],
+  "size": [
+    1918,
+    1042
+  ]
+}
+[01/10/18, 16:50:04:115] info: Store: SELECT_CHANNEL C5BB1LT4J
+[01/10/18, 16:50:07:821] info: Store: SELECT_CHANNEL C72NXARUL
+[01/10/18, 16:53:06:241] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1,
+    18
+  ],
+  "size": [
+    1918,
+    1042
+  ]
+}
+[01/10/18, 16:53:09:485] info: Store: SELECT_CHANNEL C2B352UDR
+[01/10/18, 16:53:14:555] info: Store: SELECT_CHANNEL D8QBTJ0A2
+[01/10/18, 19:02:56:067] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1,
+    18
+  ],
+  "size": [
+    1918,
+    1042
+  ]
+}
+[01/10/18, 19:02:58:239] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1,
+    18
+  ],
+  "size": [
+    1918,
+    1042
+  ]
+}
+[01/10/18, 19:03:17:342] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1,
+    18
+  ],
+  "size": [
+    1918,
+    1042
+  ]
+}
+[01/10/18, 19:03:18:592] info: Store: SELECT_CHANNEL C5BB1LT4J
+[01/10/18, 19:03:19:868] info: Store: SELECT_CHANNEL G3AMQF8US
+[01/11/18, 08:14:42:135] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "page-will-navigate",
+  "teamId": "T2616ES0G"
+}
+[01/11/18, 08:14:43:180] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T2616ES0G"
+}
+[01/11/18, 08:14:45:411] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "loaded",
+  "teamId": "T2616ES0G"
+}
+[01/11/18, 08:14:45:709] info: Store: SELECT_CHANNEL G3AMQF8US
+[01/11/18, 08:14:46:191] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T2616ES0G"
+}
+[01/11/18, 08:14:46:309] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US"
+}
+[01/11/18, 08:14:46:868] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "T2616ES0G",
+  "theme": {
+    "active_item": "#4C9689",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#38978D",
+    "badge": "#EB4D5C",
+    "column_bg": "#4D394B",
+    "hover_item": "#3E313C",
+    "menu_bg": "#3E313C",
+    "text_color": "#FFFFFF"
+  }
+}
+[01/11/18, 08:14:46:970] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-01-25/132842497927_0dbc3c6e7e03990332f5_102.png",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-01-25/132842497927_0dbc3c6e7e03990332f5_132.png",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-01-25/132842497927_0dbc3c6e7e03990332f5_230.png",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-01-25/132842497927_0dbc3c6e7e03990332f5_34.png",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-01-25/132842497927_0dbc3c6e7e03990332f5_44.png",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-01-25/132842497927_0dbc3c6e7e03990332f5_68.png",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-01-25/132842497927_0dbc3c6e7e03990332f5_88.png",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-01-25/132842497927_0dbc3c6e7e03990332f5_original.png"
+  },
+  "teamId": "T2616ES0G"
+}
+[01/11/18, 08:14:47:242] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T2616ES0G"
+}
+[01/11/18, 08:14:47:249] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "webapp-loaded",
+  "teamId": "T2616ES0G"
+}
+[01/11/18, 08:20:09:024] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1,
+    18
+  ],
+  "size": [
+    1918,
+    1042
+  ]
+}
+[01/11/18, 08:20:11:439] info: Store: SELECT_CHANNEL C261DLCDB
+[01/11/18, 08:20:21:433] info: Store: SELECT_CHANNEL C2B5LM1KN
+[01/11/18, 08:20:40:329] info: Store: SELECT_CHANNEL C261DLC2H
+[01/11/18, 08:20:45:092] info: Store: SELECT_CHANNEL C2THZDE65
+[01/11/18, 08:20:46:943] info: Store: SELECT_CHANNEL C5BB1LT4J
+[01/11/18, 08:20:48:515] info: Store: SELECT_CHANNEL C262NGW94
+[01/11/18, 08:20:56:808] info: Store: SELECT_CHANNEL D8QBTJ0A2
+[01/11/18, 08:21:10:562] info: Store: OPEN_CONTEXT_MENU
+{
+  "id": 3,
+  "params": "[REDACTED]"
+}
+[01/11/18, 08:21:24:056] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1,
+    18
+  ],
+  "size": [
+    958,
+    1042
+  ]
+}
+[01/11/18, 08:22:05:517] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1,
+    18
+  ],
+  "size": [
+    958,
+    1042
+  ]
+}
+[01/11/18, 08:22:07:737] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1,
+    18
+  ],
+  "size": [
+    1918,
+    1042
+  ]
+}
+[01/11/18, 08:26:41:746] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1,
+    18
+  ],
+  "size": [
+    1918,
+    1042
+  ]
+}
+[01/11/18, 08:26:46:497] info: Store: OPEN_CONTEXT_MENU
+{
+  "id": 3,
+  "params": "[REDACTED]"
+}
+[01/11/18, 08:34:26:849] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1,
+    18
+  ],
+  "size": [
+    1918,
+    1042
+  ]
+}
+[01/11/18, 08:34:38:309] info: Store: OPEN_CONTEXT_MENU
+{
+  "id": 3,
+  "params": "[REDACTED]"
+}
+[01/11/18, 08:34:49:098] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1,
+    18
+  ],
+  "size": [
+    1918,
+    1042
+  ]
+}
+[01/11/18, 08:34:51:597] info: Store: OPEN_CONTEXT_MENU
+{
+  "id": 3,
+  "params": "[REDACTED]"
+}
+[01/11/18, 09:34:18:691] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1,
+    18
+  ],
+  "size": [
+    1918,
+    1042
+  ]
+}
+[01/11/18, 11:47:59:254] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1,
+    18
+  ],
+  "size": [
+    1918,
+    1042
+  ]
+}
+[01/11/18, 11:59:59:465] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1,
+    18
+  ],
+  "size": [
+    1918,
+    1042
+  ]
+}
+[01/11/18, 12:00:03:492] info: Store: OPEN_CONTEXT_MENU
+{
+  "id": 3,
+  "params": "[REDACTED]"
+}
+[01/11/18, 13:24:46:431] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1,
+    18
+  ],
+  "size": [
+    1918,
+    1042
+  ]
+}
+[01/11/18, 13:58:41:137] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1,
+    18
+  ],
+  "size": [
+    1918,
+    1042
+  ]
+}
+[01/11/18, 13:58:51:147] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1,
+    18
+  ],
+  "size": [
+    1918,
+    1042
+  ]
+}
+[01/11/18, 13:58:55:718] info: Store: SELECT_CHANNEL C2B5LM1KN
+[01/11/18, 13:59:50:333] info: Store: OPEN_CONTEXT_MENU
+{
+  "id": 3,
+  "params": "[REDACTED]"
+}
+[01/11/18, 14:00:09:295] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1,
+    18
+  ],
+  "size": [
+    1918,
+    1042
+  ]
+}
+[01/11/18, 14:04:15:791] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1,
+    18
+  ],
+  "size": [
+    1918,
+    1042
+  ]
+}
+[01/11/18, 14:06:54:679] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1,
+    18
+  ],
+  "size": [
+    1918,
+    1042
+  ]
+}
+[01/11/18, 14:07:11:450] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1,
+    18
+  ],
+  "size": [
+    1918,
+    1042
+  ]
+}
+[01/11/18, 14:07:17:851] info: Store: SELECT_CHANNEL D8QBTJ0A2
+[01/11/18, 14:07:29:604] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1,
+    18
+  ],
+  "size": [
+    1918,
+    1042
+  ]
+}
+[01/11/18, 14:07:54:228] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1,
+    18
+  ],
+  "size": [
+    1918,
+    1042
+  ]
+}
+[01/11/18, 14:09:26:025] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1,
+    18
+  ],
+  "size": [
+    1918,
+    1042
+  ]
+}
+[01/11/18, 14:09:29:582] info: Store: SELECT_CHANNEL C2B5LM1KN
+[01/11/18, 14:10:43:099] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1,
+    18
+  ],
+  "size": [
+    1918,
+    1042
+  ]
+}
+[01/11/18, 14:10:47:614] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1,
+    18
+  ],
+  "size": [
+    1918,
+    1042
+  ]
+}
+[01/11/18, 14:11:48:265] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1,
+    18
+  ],
+  "size": [
+    1918,
+    1042
+  ]
+}
+[01/11/18, 14:16:01:804] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1,
+    18
+  ],
+  "size": [
+    1918,
+    1042
+  ]
+}
+[01/11/18, 14:36:26:143] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1,
+    18
+  ],
+  "size": [
+    1918,
+    1042
+  ]
+}
+[01/11/18, 14:36:55:263] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1,
+    18
+  ],
+  "size": [
+    1918,
+    1042
+  ]
+}
+[01/11/18, 15:23:05:759] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1,
+    18
+  ],
+  "size": [
+    1918,
+    1042
+  ]
+}
+[01/11/18, 15:31:35:929] info: Store: FOREGROUND_APP
+[01/11/18, 15:31:38:575] info: Store: SELECT_CHANNEL D8QBTJ0A2
+[01/11/18, 15:31:43:478] info: Store: OPEN_CONTEXT_MENU
+{
+  "id": 3,
+  "params": "[REDACTED]"
+}
+[01/11/18, 15:32:39:032] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1,
+    18
+  ],
+  "size": [
+    1918,
+    1042
+  ]
+}
+[01/11/18, 15:44:47:368] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1,
+    18
+  ],
+  "size": [
+    1918,
+    1042
+  ]
+}
+[01/11/18, 15:49:09:625] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1,
+    18
+  ],
+  "size": [
+    1918,
+    1042
+  ]
+}
+[01/11/18, 15:50:37:690] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T2616ES0G-U28QA1SMB-40771dea8ca9-512",
+  "channel": "D8QBTJ0A2",
+  "content": "[REDACTED]",
+  "id": "3j8xumhDk0x1n3A",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=D8QBTJ0A2&message=1515703837.000286&team=T2616ES0G",
+  "msg": "1515703837.000286",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T2616ES0G",
+  "title": "[REDACTED]"
+}
+[01/11/18, 15:50:41:910] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1,
+    18
+  ],
+  "size": [
+    1918,
+    1042
+  ]
+}
+[01/11/18, 15:50:51:819] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T2616ES0G-U28QA1SMB-40771dea8ca9-512",
+  "channel": "D8QBTJ0A2",
+  "content": "[REDACTED]",
+  "id": "YQL9fDiV5pJ7qZ0",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=D8QBTJ0A2&message=1515703851.000363&team=T2616ES0G",
+  "msg": "1515703851.000363",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T2616ES0G",
+  "title": "[REDACTED]"
+}
+[01/11/18, 15:50:55:218] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1,
+    18
+  ],
+  "size": [
+    1918,
+    1042
+  ]
+}
+[01/11/18, 15:51:07:082] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T2616ES0G-U28QA1SMB-40771dea8ca9-512",
+  "channel": "D8QBTJ0A2",
+  "content": "[REDACTED]",
+  "id": "6m1AuVs57YyW8Wr",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=D8QBTJ0A2&message=1515703866.000414&team=T2616ES0G",
+  "msg": "1515703866.000414",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T2616ES0G",
+  "title": "[REDACTED]"
+}
+[01/11/18, 15:51:21:124] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1,
+    18
+  ],
+  "size": [
+    1918,
+    1042
+  ]
+}
+[01/11/18, 15:51:45:502] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T2616ES0G-U28QA1SMB-40771dea8ca9-512",
+  "channel": "D8QBTJ0A2",
+  "content": "[REDACTED]",
+  "id": "KYqVFrtA096M79A",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=D8QBTJ0A2&message=1515703905.000165&team=T2616ES0G",
+  "msg": "1515703905.000165",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T2616ES0G",
+  "title": "[REDACTED]"
+}
+[01/11/18, 15:51:48:065] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1,
+    18
+  ],
+  "size": [
+    1918,
+    1042
+  ]
+}
+[01/11/18, 15:53:04:252] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1,
+    18
+  ],
+  "size": [
+    1918,
+    1042
+  ]
+}
+[01/11/18, 15:55:55:029] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T2616ES0G-U28QA1SMB-40771dea8ca9-512",
+  "channel": "D8QBTJ0A2",
+  "content": "[REDACTED]",
+  "id": "9pZEF2uO95mOxm1",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=D8QBTJ0A2&message=1515704154.000510&team=T2616ES0G",
+  "msg": "1515704154.000510",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T2616ES0G",
+  "title": "[REDACTED]"
+}
+[01/11/18, 15:55:58:783] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1,
+    18
+  ],
+  "size": [
+    1918,
+    1042
+  ]
+}
+[01/11/18, 15:56:41:604] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T2616ES0G-U28QA1SMB-40771dea8ca9-512",
+  "channel": "D8QBTJ0A2",
+  "content": "[REDACTED]",
+  "id": "DYjVFJCZYVKZVGQ",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=D8QBTJ0A2&message=1515704201.000101&team=T2616ES0G",
+  "msg": "1515704201.000101",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T2616ES0G",
+  "title": "[REDACTED]"
+}
+[01/11/18, 15:59:58:071] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1,
+    18
+  ],
+  "size": [
+    1918,
+    1042
+  ]
+}
+[01/11/18, 16:01:32:356] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1,
+    18
+  ],
+  "size": [
+    1918,
+    1042
+  ]
+}
+[01/11/18, 16:25:33:361] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T2616ES0G-U329SM0JH-0b970ccf5fd1-512",
+  "channel": "D8NCVHY8M",
+  "content": "[REDACTED]",
+  "id": "JYp9F1FLr6ZAk81",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=D8NCVHY8M&message=1515705932.000825&team=T2616ES0G",
+  "msg": "1515705932.000825",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T2616ES0G",
+  "title": "[REDACTED]"
+}
+[01/11/18, 16:25:41:564] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T2616ES0G-U329SM0JH-0b970ccf5fd1-512",
+  "channel": "D8NCVHY8M",
+  "content": "[REDACTED]",
+  "id": "nYy9FxHZxnAG4g0",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=D8NCVHY8M&message=1515705941.000078&team=T2616ES0G",
+  "msg": "1515705941.000078",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T2616ES0G",
+  "title": "[REDACTED]"
+}
+[01/11/18, 16:47:29:740] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T2616ES0G-U329SM0JH-0b970ccf5fd1-512",
+  "channel": "D8NCVHY8M",
+  "content": "[REDACTED]",
+  "id": "WwJ9fNInGDN97rw",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=D8NCVHY8M&message=1515707249.000383&team=T2616ES0G",
+  "msg": "1515707249.000383",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T2616ES0G",
+  "title": "[REDACTED]"
+}
+[01/11/18, 16:47:33:256] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T2616ES0G-U329SM0JH-0b970ccf5fd1-512",
+  "channel": "D8NCVHY8M",
+  "content": "[REDACTED]",
+  "id": "2gZwFWS2kDPAKBx",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=D8NCVHY8M&message=1515707253.000105&team=T2616ES0G",
+  "msg": "1515707253.000105",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T2616ES0G",
+  "title": "[REDACTED]"
+}
+[01/11/18, 16:47:54:919] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1,
+    18
+  ],
+  "size": [
+    1918,
+    1042
+  ]
+}
+[01/11/18, 16:47:58:939] info: Store: SELECT_CHANNEL D8NCVHY8M
+[01/11/18, 16:48:55:063] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T2616ES0G-U329SM0JH-0b970ccf5fd1-512",
+  "channel": "D8NCVHY8M",
+  "content": "[REDACTED]",
+  "id": "02ZrsjTWmkQ06j6",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=D8NCVHY8M&message=1515707334.000362&team=T2616ES0G",
+  "msg": "1515707334.000362",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T2616ES0G",
+  "title": "[REDACTED]"
+}
+[01/11/18, 16:48:58:689] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1,
+    18
+  ],
+  "size": [
+    1918,
+    1042
+  ]
+}
+[01/11/18, 16:49:11:962] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T2616ES0G-U329SM0JH-0b970ccf5fd1-512",
+  "channel": "D8NCVHY8M",
+  "content": "[REDACTED]",
+  "id": "xVMruKUw1jQ5jvQ",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=D8NCVHY8M&message=1515707351.000438&team=T2616ES0G",
+  "msg": "1515707351.000438",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T2616ES0G",
+  "title": "[REDACTED]"
+}
+[01/11/18, 16:50:30:101] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1,
+    18
+  ],
+  "size": [
+    1918,
+    1042
+  ]
+}
+[01/11/18, 21:15:53:662] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1,
+    18
+  ],
+  "size": [
+    1918,
+    1042
+  ]
+}
+[01/11/18, 21:16:58:709] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-01-25/132842497927_0dbc3c6e7e03990332f5_102.png",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-01-25/132842497927_0dbc3c6e7e03990332f5_132.png",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-01-25/132842497927_0dbc3c6e7e03990332f5_230.png",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-01-25/132842497927_0dbc3c6e7e03990332f5_34.png",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-01-25/132842497927_0dbc3c6e7e03990332f5_44.png",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-01-25/132842497927_0dbc3c6e7e03990332f5_68.png",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-01-25/132842497927_0dbc3c6e7e03990332f5_88.png",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-01-25/132842497927_0dbc3c6e7e03990332f5_original.png"
+  },
+  "teamId": "T2616ES0G"
+}
+[01/11/18, 21:16:58:876] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T2616ES0G"
+}
+[01/11/18, 21:19:50:689] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1,
+    18
+  ],
+  "size": [
+    1918,
+    1042
+  ]
+}
+[01/11/18, 21:19:51:512] info: Store: SELECT_CHANNEL D8QBTJ0A2
+[01/11/18, 21:20:06:365] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1,
+    18
+  ],
+  "size": [
+    1918,
+    1042
+  ]
+}

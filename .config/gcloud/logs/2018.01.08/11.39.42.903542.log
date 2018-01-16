@@ -1,0 +1,79 @@
+2018-01-08 11:39:42,909 DEBUG    root            Loaded Command Group: ['gcloud', 'init']
+2018-01-08 11:39:42,910 DEBUG    root            Running [gcloud.init] with arguments: []
+2018-01-08 11:39:42,911 INFO     ___FILE_ONLY___ Welcome! This command will take you through the configuration of gcloud.
+
+
+2018-01-08 11:39:42,911 INFO     ___FILE_ONLY___ Settings from your current configuration [default] are:
+
+2018-01-08 11:39:42,912 INFO     ___FILE_ONLY___ core:
+  account: rosborne-intern@bbmtek.com
+  disable_usage_reporting: 'True'
+  project: bbm-staging
+
+2018-01-08 11:39:42,913 INFO     ___FILE_ONLY___ 
+
+2018-01-08 11:42:52,139 INFO     ___FILE_ONLY___ Your current configuration has been set to: [rosborne]
+
+
+2018-01-08 11:42:52,139 INFO     ___FILE_ONLY___ You can skip diagnostics next time by using the following flag:
+
+2018-01-08 11:42:52,139 INFO     ___FILE_ONLY___   gcloud init --skip-diagnostics
+
+
+2018-01-08 11:42:52,139 INFO     ___FILE_ONLY___ Network diagnostic detects and fixes local network connection issues.
+
+2018-01-08 11:42:52,139 INFO     ___FILE_ONLY___ Checking network connection...
+2018-01-08 11:42:54,143 INFO     ___FILE_ONLY___ Reachability Check passed.
+
+2018-01-08 11:42:54,144 INFO     ___FILE_ONLY___ Network diagnostic (1/1 checks) passed.
+
+
+2018-01-08 11:42:55,788 INFO     ___FILE_ONLY___ You are logged in as: [rosborne-intern@bbmtek.com].
+
+
+2018-01-08 11:43:03,547 INFO     ___FILE_ONLY___ Your current project has been set to: [bbm-dev].
+
+
+2018-01-08 11:43:03,547 DEBUG    root            Loaded Command Group: ['gcloud', 'compute', 'project_info']
+2018-01-08 11:43:03,552 DEBUG    root            Loaded Command Group: ['gcloud', 'compute', 'project-info', 'describe']
+2018-01-08 11:43:03,553 INFO     root            Executing: [gcloud compute project-info describe]
+2018-01-08 11:43:03,554 DEBUG    root            Running [gcloud.compute.project-info.describe] with arguments: [--no-user-output-enabled: "false", --verbosity: "none"]
+2018-01-08 11:43:03,865 INFO     root            Display disabled.
+2018-01-08 11:43:03,865 DEBUG    root            SDK update checks are disabled.
+2018-01-08 11:43:09,851 DEBUG    root            Executing command: ['/usr/lib/google-cloud-sdk/bin/gsutil', 'config', '-n', '-o', '/home/ryan/.boto']
+2018-01-08 11:43:10,996 DEBUG    ___FILE_ONLY___ 
+2018-01-08 11:43:10,997 DEBUG    ___FILE_ONLY___ This command will create a boto config file at /home/ryan/.boto
+containing your credentials, based on your responses to the following
+questions.
+
+Boto config file "/home/ryan/.boto" created. If you need to use a
+proxy to access the Internet please see the instructions in that file.
+
+2018-01-08 11:43:10,997 INFO     ___FILE_ONLY___ Created a default .boto configuration file at [/home/ryan/.boto]. See this file and
+[https://cloud.google.com/storage/docs/gsutil/commands/config] for more
+information about configuring Google Cloud Storage.
+
+2018-01-08 11:43:10,997 INFO     ___FILE_ONLY___ Your Google Cloud SDK is configured and ready to use!
+
+
+2018-01-08 11:43:10,997 INFO     ___FILE_ONLY___ * Commands that require authentication will use rosborne-intern@bbmtek.com by default
+
+2018-01-08 11:43:10,997 INFO     ___FILE_ONLY___ * Commands will reference project `bbm-dev` by default
+
+2018-01-08 11:43:10,997 INFO     ___FILE_ONLY___ Run `gcloud help config` to learn how to change individual settings
+
+
+2018-01-08 11:43:10,997 INFO     ___FILE_ONLY___ This gcloud configuration is called [rosborne]. You can create additional configurations if you work with multiple accounts and/or projects.
+
+2018-01-08 11:43:10,997 INFO     ___FILE_ONLY___ Run `gcloud topic configurations` to learn more.
+
+
+2018-01-08 11:43:10,997 INFO     ___FILE_ONLY___ Some things to try next:
+
+
+2018-01-08 11:43:10,997 INFO     ___FILE_ONLY___ * Run `gcloud --help` to see the Cloud Platform services you can interact with. And run `gcloud help COMMAND` to get help on any gcloud command.
+
+2018-01-08 11:43:10,998 INFO     ___FILE_ONLY___ * Run `gcloud topic -h` to learn about advanced features of the SDK like arg files and output formatting
+
+2018-01-08 11:43:10,998 INFO     root            Display format "default".
+2018-01-08 11:43:10,999 DEBUG    root            SDK update checks are disabled.

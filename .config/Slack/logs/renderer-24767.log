@@ -1,0 +1,44 @@
+[01/09/18, 14:15:51:408] info: ╔═════════════════════════════════════════════════════════════════════════════════╗
+[01/09/18, 14:15:51:409] info: ║      Slack 3.0.2, linux 4.10.0-42-generic on x64 at 01/09/18, 14:15:51:404      ║
+[01/09/18, 14:15:51:409] info: ╚═════════════════════════════════════════════════════════════════════════════════╝
+[01/09/18, 14:15:51:609] info: Initializing local storage instance at path: /home/ryan/.config/Slack/local-settings.json
+[01/09/18, 14:16:00:742] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1921,
+    18
+  ],
+  "size": [
+    1918,
+    1162
+  ]
+}
+[01/09/18, 14:16:06:916] info: Store: FOREGROUND_APP
+[01/09/18, 14:16:28:246] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "loaded",
+  "teamId": "T2616ES0G"
+}
+[01/09/18, 14:16:32:462] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T2616ES0G"
+}
+[01/09/18, 14:18:12:729] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1921,
+    18
+  ],
+  "size": [
+    1918,
+    1162
+  ]
+}
+[01/09/18, 14:18:12:957] info: Store: RELOAD
+{
+  "everything": false
+}

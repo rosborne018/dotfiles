@@ -1,0 +1,84 @@
+[01/09/18, 14:15:40:075] info: ╔═════════════════════════════════════════════════════════════════════════════════╗
+[01/09/18, 14:15:40:076] info: ║      Slack 3.0.2, linux 4.10.0-42-generic on x64 at 01/09/18, 14:15:40:072      ║
+[01/09/18, 14:15:40:076] info: ╚═════════════════════════════════════════════════════════════════════════════════╝
+[01/09/18, 14:15:40:177] info: Initializing local storage instance at path: /home/ryan/.config/Slack/local-settings.json
+[01/09/18, 14:15:40:451] info: updateSuspendResume: true
+[01/09/18, 14:15:40:452] warn: updateSpellcheckerLanguage: Tried to update language, but spellchecker not initialized
+[01/09/18, 14:15:40:514] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "loaded",
+  "teamId": "T2616ES0G"
+}
+[01/09/18, 14:15:40:517] info: Store: MAIN_WINDOW_SHOWN
+[01/09/18, 14:15:41:481] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1921,
+    18
+  ],
+  "size": [
+    1918,
+    1162
+  ]
+}
+[01/09/18, 14:15:42:956] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1921,
+    18
+  ],
+  "size": [
+    1918,
+    1162
+  ]
+}
+[01/09/18, 14:15:44:848] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1921,
+    18
+  ],
+  "size": [
+    1918,
+    1162
+  ]
+}
+[01/09/18, 14:15:47:141] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T2616ES0G"
+}
+[01/09/18, 14:15:50:412] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1921,
+    18
+  ],
+  "size": [
+    1918,
+    1162
+  ]
+}
+[01/09/18, 14:15:51:065] info: Store: RELOAD
+{
+  "everything": false
+}
+[01/09/18, 14:15:51:068] info: Window is unloading, winssb is no longer accessible
+[01/09/18, 14:16:00:739] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1921,
+    18
+  ],
+  "size": [
+    1918,
+    1162
+  ]
+}
+[01/09/18, 14:16:06:916] info: Store: FOREGROUND_APP
