@@ -78,10 +78,14 @@ nmap <silent> <C-l> :wincmd l<CR>
 nmap <silent> <leader>q :hide <CR>
 
 " airline settings
-"let g:airline#extensions#tabline#enabled = 1
-"let g:airline#extensions#tabline#left_sep = ' '
-"let g:airline#extensions#tabline#left_alt_sep = '|'
-"let g:airline#extensions#tabline#formatter = 'default'
+let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#left_sep = ' '
+let g:airline#extensions#tabline#left_alt_sep = '|'
+let g:airline#extensions#tabline#formatter = 'default'
+let g:airline#extensions#tabline#show_tabs = 1
+let g:airline#extensions#tabline#show_splits = 1 "enable/disable displaying open splits per tab (only when tabs are opened). >
+let g:airline#extensions#tabline#show_buffers = 1 " enable/disable displaying buffers with a single tab
+let g:airline#extensions#tabline#tab_nr_type = 1 " tab number
 
 
 "irline#extensions#tabline#formatter = 'default' ctrlp settings
@@ -99,16 +103,15 @@ nnoremap <leader>. :CtrlPTag<CR>
 
 
 "syntactics recommended settings
-" set statusline+=%#warningmsg#
-" set statusline+=%{SyntasticStatuslineFlag()}
-" set statusline+=%*
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
 
-"let g:syntastic_always_populate_loc_list = 1
-"let g:syntastic_auto_loc_list = 1
-"let g:syntastic_check_on_open = 1
-"let g:syntastic_check_on_wq = 0
-
-" jedi-vim
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
+let g:syntastic_python_checker_args='--ignore=E501'
 "
 "let g:jedi#goto_command = "<leader>d"
 "let g:jedi#goto_assignments_command = "<leader>g"
@@ -136,5 +139,5 @@ Plug 'junegunn/fzf.vim'
 Plug 'scrooloose/nerdtree'
 Plug 'majutsushi/tagbar'
 "Plug 'davidhalter/jedi-vim'
-" Plug 'vim-syntastic/syntastic'
+Plug 'vim-syntastic/syntastic'
 call plug#end()
