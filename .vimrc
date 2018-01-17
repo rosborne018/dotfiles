@@ -101,6 +101,10 @@ let g:auto_save_in_insert_mode = 0  " do not save while in insert mode
 nnoremap <leader>. :CtrlPTag<CR> 
 "ctrlp Ctags
 
+" you complete me
+let g:ycm_collect_identifiers_from_tags_files
+let g:ycm_min_num_of_chars_for_completion = 0
+let g:ycm_python_binary_path = 'python'
 
 "syntactics recommended settings
 set statusline+=%#warningmsg#
