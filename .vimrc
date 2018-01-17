@@ -64,6 +64,10 @@ set showmatch
 "tab new blank
 :map <leader>t :tabedit <CR>
 
+" buffer left
+:map <leader>h :bp <CR>
+" buffer right
+:map <leader>l :bn <CR>
 "remap <leader> + hjkl to move accross frames
 nmap <silent> <C-k> :wincmd k<CR>
 nmap <silent> <C-j> :wincmd j<CR>
@@ -90,26 +94,35 @@ let g:ctrlp_show_hidden = 1 " allow search for dotfiles
 " autosave
 let g:auto_save = 1  " enable AutoSave on Vim startup
 let g:auto_save_in_insert_mode = 0  " do not save while in insert mode
+nnoremap <leader>. :CtrlPTag<CR> 
+"ctrlp Ctags
+
 
 "syntactics recommended settings
 " set statusline+=%#warningmsg#
 " set statusline+=%{SyntasticStatuslineFlag()}
 " set statusline+=%*
 
-let g:syntastic_always_populate_loc_list = 1
-let g:syntastic_auto_loc_list = 1
-let g:syntastic_check_on_open = 1
-let g:syntastic_check_on_wq = 0
+"let g:syntastic_always_populate_loc_list = 1
+"let g:syntastic_auto_loc_list = 1
+"let g:syntastic_check_on_open = 1
+"let g:syntastic_check_on_wq = 0
 
 " jedi-vim
+"
+"let g:jedi#goto_command = "<leader>d"
+"let g:jedi#goto_assignments_command = "<leader>g"
+"let g:jedi#goto_definitions_command = ""
+"let g:jedi#documentation_command = "K"
+"let g:jedi#usages_command = "<leader>n"
+"let g:jedi#completions_command = "<C-Space>"
+"let g:jedi#rename_command = "<leader>r"
+"
+"NERD tree
+map <C-n> :NERDTreeToggle<CR>
+" tagbar
+nmap <F8> :TagbarToggle<CR>
 
-let g:jedi#goto_command = "<leader>d"
-let g:jedi#goto_assignments_command = "<leader>g"
-let g:jedi#goto_definitions_command = ""
-let g:jedi#documentation_command = "K"
-let g:jedi#usages_command = "<leader>n"
-let g:jedi#completions_command = "<C-Space>"
-let g:jedi#rename_command = "<leader>r"
 
 call plug#begin('~/.vim/plugged')
 Plug 'tpope/vim-surround'
@@ -120,6 +133,8 @@ Plug 'vim-scripts/vim-auto-save'
 Plug 'Valloric/YouCompleteMe'
 Plug 'joshdick/onedark.vim'
 Plug 'junegunn/fzf.vim'
+Plug 'scrooloose/nerdtree'
+Plug 'majutsushi/tagbar'
 "Plug 'davidhalter/jedi-vim'
 " Plug 'vim-syntastic/syntastic'
 call plug#end()
