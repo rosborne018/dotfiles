@@ -78,10 +78,10 @@ nmap <silent> <C-l> :wincmd l<CR>
 nmap <silent> <leader>q :hide <CR>
 
 " airline settings
-let g:airline#extensions#tabline#enabled = 1
-let g:airline#extensions#tabline#left_sep = ' '
-let g:airline#extensions#tabline#left_alt_sep = '|'
-let g:airline#extensions#tabline#formatter = 'default'
+"let g:airline#extensions#tabline#enabled = 1
+"let g:airline#extensions#tabline#left_sep = ' '
+"let g:airline#extensions#tabline#left_alt_sep = '|'
+"let g:airline#extensions#tabline#formatter = 'default'
 
 
 "irline#extensions#tabline#formatter = 'default' ctrlp settings
