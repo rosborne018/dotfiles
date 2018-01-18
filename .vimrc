@@ -100,6 +100,15 @@ let g:auto_save = 1  " enable AutoSave on Vim startup
 let g:auto_save_in_insert_mode = 0  " do not save while in insert mode
 nnoremap <leader>. :CtrlPTag<CR> 
 "ctrlp Ctags
+map <C-\> :tab split<CR>:exec("tag ".expand("<cword>"))<CR>
+map <A-]> :vsp <CR>:exec("tag ".expand("<cword>"))<CR>
+map <M-Left> <C-T>
+map <M-Right> <C-]>
+
+
+" keyword lookups for python
+autocmd BufNewFile,BufRead *.py set keywordprg=pydoc
+
 
 " you complete me
 let g:ycm_collect_identifiers_from_tags_files
