@@ -153,4 +153,5 @@ Plug 'scrooloose/nerdtree'
 Plug 'majutsushi/tagbar'
 "Plug 'davidhalter/jedi-vim'
 Plug 'vim-syntastic/syntastic'
+Plug 'mikelue/vim-maven-plugin'
 call plug#end()
