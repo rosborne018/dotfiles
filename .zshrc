@@ -1,6 +1,7 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
+
 # Path to your oh-my-zsh installation.
   export ZSH=/home/ryan/.oh-my-zsh
 
@@ -128,3 +129,6 @@ bindkey -M viins '^F' history-incremental-pattern-search-forward
 bindkey "^[[B" down-line-or-beginning-search # Down
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+. /home/ryan/.opam/opam-init/init.zsh > /dev/null 2> /dev/null || true
+

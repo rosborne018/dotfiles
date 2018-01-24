@@ -7,7 +7,7 @@
 syntax enable
 
 "code folding for python
-"set foldmethod=indent
+" set foldmethod=indent
 
 
 " set highlighting for matches
@@ -48,7 +48,7 @@ set showcmd
 let mapleader = " "
 
 "redraw only when it needs to
-set lazyredraw
+"set lazyredraw
 
 " braces highlight matchinng
 set showmatch
@@ -109,11 +109,16 @@ map <M-Right> <C-]>
 " keyword lookups for python
 autocmd BufNewFile,BufRead *.py set keywordprg=pydoc
 
+" automatically reload
+autocmd VimEnter * source ~/.vimrc
+autocmd VimEnter * source ~/.vimrc
+
 
 " you complete me
-let g:ycm_collect_identifiers_from_tags_files
+let g:ycm_collect_identifiers_from_tags_files = 1
 let g:ycm_min_num_of_chars_for_completion = 0
 let g:ycm_python_binary_path = 'python'
+let g:ycm_global_ycm_extra_conf = '~/.vim/.ycm_extra_conf.py'
 
 "syntactics recommended settings
 set statusline+=%#warningmsg#
