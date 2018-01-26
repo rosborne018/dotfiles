@@ -1,0 +1,1 @@
+(define-package "ocp-indent" "20170803.222" "automatic indentation with ocp-indent" 'nil :commit "20517e96299e147ef349b9e8913f036a6c35399d" :url "http://www.typerex.org/ocp-indent.html" :keywords '("ocaml" "languages"))

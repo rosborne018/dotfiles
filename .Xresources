@@ -3,6 +3,8 @@
 !#include "/home/nir/.colors/eup2"
 !#include "/home/nir/.colors/nancy"
 !#include "/home/nir/.colors/hybrid"
+Emacs.font:    xft:Inconsolata\ For\ Powerline:size=10:antialias=true
+
 
 ! Appearance
 URxvt.font:           xft:Inconsolata\ For\ Powerline:size=10:antialias=true

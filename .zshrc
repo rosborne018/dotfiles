@@ -100,6 +100,7 @@ alias zc='vim ~/.zshrc'
 alias zs='source ~/.zshrc'
 
 alias gbus='cd ~/garuda/platform/bus/'
+alias l2='cd /home/ryan/bbm-bbid/Tools/Performance/performance-tests/bbid_locust'
 alias mcli='cd /home/ryan/bbm-identity/bbmid-mock-tools/mock-bbmid-client/src/main/java/com/bbmtek/bbmid/mockclient'
 alias venv='source ~/venv/bin/activate'
 alias venv2='source ~/venv2/bin/activate'
