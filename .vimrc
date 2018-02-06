@@ -130,6 +130,7 @@ let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 let g:syntastic_python_checker_args='--ignore=E501'
+map <F7> :SyntasticToggleMode<CR>
 "
 "let g:jedi#goto_command = "<leader>d"
 "let g:jedi#goto_assignments_command = "<leader>g"

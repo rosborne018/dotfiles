@@ -8,7 +8,9 @@
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="agnoster"
+ZSH_THEME="evan"
+# export PS1="\u@\h:\w\nλ \[$(tput sgr0)\]"
+
 
 # Set list of themes to load
 # Setting this variable when ZSH_THEME=random
@@ -75,7 +77,7 @@ source $ZSH/oh-my-zsh.sh
 
 # Preferred editor for local and remote sessions
 # if [[ -n $SSH_CONNECTION ]]; then
-#   export EDITOR='vim'
+export EDITOR='vim'
 # else
 #   export EDITOR='mvim'
 # fi
@@ -100,6 +102,7 @@ alias zc='vim ~/.zshrc'
 alias zs='source ~/.zshrc'
 
 alias gbus='cd ~/garuda/platform/bus/'
+alias l1='cd /home/ryan/bbm-identity/performance-tools/locust'
 alias l2='cd /home/ryan/bbm-bbid/Tools/Performance/performance-tests/bbid_locust'
 alias mcli='cd /home/ryan/bbm-identity/bbmid-mock-tools/mock-bbmid-client/src/main/java/com/bbmtek/bbmid/mockclient'
 alias venv='source ~/venv/bin/activate'
@@ -111,6 +114,8 @@ alias vp='vagrant provision'
 
 alias hgrep='history | grep -i '
 alias pgrep="ps aux | grep -i"
+alias lgrep="ls -al | grep -i"
+alias fgrep="find | grep -i"
 
 alias xc='xsel -ib'
 alias gsm="git commit -am '-'; git push origin master"
@@ -118,8 +123,8 @@ alias gsm="git commit -am '-'; git push origin master"
 
 del () { mv "$@" ~/trash/ }
 
-HISTSIZE=10000000
-SAVEHIST=10000000
+HISTSIZE=1000000000000000000
+SAVEHIST=1000000000000000000
 #search backwards and forwards with a pattern
 bindkey -M vicmd '/' history-incremental-pattern-search-backward
 bindkey -M vicmd '?' history-incremental-pattern-search-forward
@@ -133,3 +138,6 @@ bindkey "^[[B" down-line-or-beginning-search # Down
 
 . /home/ryan/.opam/opam-init/init.zsh > /dev/null 2> /dev/null || true
 
+clip () {
+    cat $1 | xsel -bi
+}
