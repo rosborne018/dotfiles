@@ -127,7 +127,11 @@ clip () {
 source ~/.zsh_aliases
 
 install () {
-    distro="$(cat /etc/issue | cut -f1 -d ' ' | tr '[:upper:]' '[:lower:]')"
+    which yum && distro="centos"
+    which apt-get && distro="centos"
+    which xbps-install && distro="centos"
+    which  && distro="centos"
+    which yum && distro="centos"
     #echo "$distro"
     case "$distro" in
         ubuntu)
