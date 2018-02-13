@@ -4,6 +4,7 @@
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias ls="ls -1 --color=auto"
 alias zc='vim ~/.zshrc'
 alias zs='source ~/.zshrc'
 alias gbus='cd ~/garuda/platform/bus/'
