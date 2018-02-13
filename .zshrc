@@ -98,30 +98,13 @@ export EDITOR='vim'
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 set -o vi
 export ANSIBLE_STDOUT_CALLBACK=debug
-alias zc='vim ~/.zshrc'
-alias zs='source ~/.zshrc'
 
-alias gbus='cd ~/garuda/platform/bus/'
-alias l1='cd /home/ryan/bbm-identity/performance-tools/locust'
-alias l2='cd /home/ryan/bbm-bbid/Tools/Performance/performance-tests/bbid_locust'
-alias mcli='cd /home/ryan/bbm-identity/bbmid-mock-tools/mock-bbmid-client/src/main/java/com/bbmtek/bbmid/mockclient'
-alias venv='source ~/venv/bin/activate'
-alias venv2='source ~/venv2/bin/activate'
-alias xenv='deactivate'
-alias vssh='vagrant ssh'
-alias vup='vagrant up'
-alias vp='vagrant provision'
 
-alias hgrep='history | grep -i '
-alias pgrep="ps aux | grep -i"
-alias lgrep="ls -al | grep -i"
-alias fgrep="find | grep -i"
 
-alias xc='xsel -ib'
-alias gsm="git commit -am '-'; git push origin master"
 
 
 del () { mv "$@" ~/trash/ }
+bdel () { mv "$@" ~/bbmuser/.trash }
 
 HISTSIZE=1000000000000000000
 SAVEHIST=1000000000000000000
@@ -140,4 +123,26 @@ bindkey "^[[B" down-line-or-beginning-search # Down
 
 clip () {
     cat $1 | xsel -bi
+}
+source ~/.zsh_aliases
+
+install () {
+    distro="$(cat /etc/issue | cut -f1 -d ' ' | tr '[:upper:]' '[:lower:]')"
+    #echo "$distro"
+    case "$distro" in
+        ubuntu)
+            sudo apt install "$@"
+            ;;
+        arch|antergeros)
+            sudo pacman -S  "$@"
+            ;;
+        gentoo|funtoo)
+            sudo emerge -av "$@"
+            ;;
+        void)
+            sudo xbps-install -S "$@"
+            ;;
+        *)
+            echo "unable to find distro"
+    esac
 }

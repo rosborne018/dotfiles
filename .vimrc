@@ -14,6 +14,19 @@ syntax enable
 set hlsearch
 "sets the highlighting off
 map <leader>, :nohlsearch<CR> 
+
+" shows the register buffers 
+map <leader>r :reg<CR>
+
+" write
+map <leader>w :w<CR>
+
+"buffers
+map <leader>b :buffers<CR>
+"alias _only_ 'b' to buffer, this is to switch buffers easily
+"closes the current buffer
+map <leader>z :bd<CR>
+cnoreabbrev b buffer
 " color theme
 colorscheme onedark
 
