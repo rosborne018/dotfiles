@@ -1,0 +1,8 @@
+keymap L NEXT
+keymap H PREV
+keymap ESC-h HELP
+keymap C-h PREV_TAB
+keymap C-l NEXT_TAB
+keymap b SELECT_MENU
+keymap t TAB_MENU
+keymap C-o MAIN_MENU

@@ -1,0 +1,76 @@
+set mbox_type   = Maildir
+# set sendmail    = /usr/bin/msmtp
+# set folder      = ~/Mail/Gmail
+# mailboxes       = +INBOX
+# set mbox        = "+[Gmail]/All Mail"
+# set postponed   = "+[Gmail]/Drafts"
+# unset record
+# set spool   = "~/Mail"
+source ~/.mutt/accounts/personal
+folder-hook Personal/* source ~/.mutt/accounts/personal
+folder-hook Work/* source ~/.mutt/accounts/work
+
+
+#change folders
+## Shortcuts
+macro index,pager <f2> '<sync-mailbox><enter-command>source ~/.mutt/accounts/personal<enter><change-folder>!<enter>'
+macro index,pager <f3> '<sync-mailbox><enter-command>source ~/.mutt/accounts/work<enter><change-folder>!<enter>'
+
+# macro index D \
+#     "<save-message>~/Mail/Gmail/Trash<enter>" \
+#     "move message to the trash"
+# 
+# macro index S \
+#     "<save-message>~/Mail/Gmail/Spam<enter>" \
+#     "mark message as spam"
+
+#Store message headers locally to speed things up.
+# If hcache is a folder, Mutt will create sub cache folders for each account which may speeds things up even more.
+set header_cache = ~/.cache/mutt
+
+# Store messages locally to speed things up, like searching message bodies.
+# Can be the same folder as header_cache.
+# This will cost important disk usage according to your e-mail amount.
+set message_cachedir = "~/.cache/mutt"
+
+
+# Allow Mutt to open a new IMAP connection automatically.
+unset imap_passive
+
+# Keep the IMAP connection alive by polling intermittently (time in seconds).
+set imap_keepalive = 300
+
+#timeout
+set timeout=10
+
+
+# How often to check for new mail (time in seconds).
+set mail_check = 60
+auto_view text/html
+alternative_order text/plain text/html
+
+
+# sort/threading
+set sort     = threads
+set sort_aux = reverse-last-date-received
+set sort_re
+
+# look and feel
+set pager_index_lines = 8
+set pager_context     = 5
+set pager_stop
+set menu_scroll
+set smart_wrap
+set tilde
+unset markers
+
+# composing 
+set fcc_attach
+unset mime_forward
+set forward_format = "Fwd: %s"
+set include
+set forward_quote
+
+ignore *                               # first, ignore all headers
+unignore from: to: cc: date: subject:  # then, show only these
+hdr_order from: to: cc: date: subject: # and in this order

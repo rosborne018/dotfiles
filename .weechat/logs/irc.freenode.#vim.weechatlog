@@ -1,0 +1,33 @@
+2018-01-10 11:15:27	-->	Misha_B (~ryan@192.199.14.174) has joined #vim
+2018-01-10 11:15:27	--	Topic for #vim is "Can't talk? Register https://freenode.net/kb/answer/registration | Vim 8.0.1161 http://www.vim.org | Don't ask to ask! | Use :help and :helpgrep | WIKI: http://vim.wikia.com | PASTE: http://vpaste.net/?ft=vim | https://www.vi-improved.org"
+2018-01-10 11:15:27	--	Topic set by ntnn on Sat, 30 Sep 2017 04:13:39
+2018-01-10 11:15:27	--	Channel #vim: 1147 nicks (0 ops, 0 voices, 1147 normals)
+2018-01-10 11:15:27	--	PvNotice(ChanServ): vim discussion .. www.vim.org, vim.sf.net, :help
+2018-01-10 11:15:27	--	URL for #vim: http://vi-improved.org
+2018-01-10 11:15:28	--	Channel created on Sun, 26 Nov 2006 01:42:44
+2018-01-10 11:15:35	-->	excelsior (~vijay@1.23.38.198) has joined #vim
+2018-01-10 11:15:36	-->	pt1 (~pt1@static-213-115-38-242.sme.bredbandsbolaget.se) has joined #vim
+2018-01-10 11:15:57	kvik	shmup, you don't need expand. just do <C-R>=b:viki_dir
+2018-01-10 11:16:05	<--	goweol1 (~Thunderbi@115.95.5.219) has quit (Ping timeout: 276 seconds)
+2018-01-10 11:16:06	shmup	weeeee
+2018-01-10 11:16:14	Misha_B	Hello, is there a way to get helm-esque plugin for vim for the :commands
+2018-01-10 11:17:08	<--	yohnnyjoe (~yohnnyjoe@c-73-129-2-10.hsd1.dc.comcast.net) has quit (Ping timeout: 268 seconds)
+2018-01-10 11:17:29	<--	forgottenone (~forgotten@176.88.57.222) has quit (Quit: Konversation terminated!)
+2018-01-10 11:18:42	-->	goweol (~Thunderbi@115.95.5.219) has joined #vim
+2018-01-10 11:18:48	-->	bmeynell (~bmeynell@142.197.108.175) has joined #vim
+2018-01-10 11:19:27	shmup	how would you adjust line 9 then, kvik?
+2018-01-10 11:20:09	<--	pt1 (~pt1@static-213-115-38-242.sme.bredbandsbolaget.se) has quit (Ping timeout: 264 seconds)
+2018-01-10 11:20:56	-->	goweol1 (~Thunderbi@115.95.5.219) has joined #vim
+2018-01-10 11:22:19	m_ben	does ctags work with vimscript? I'd like to jump to a namespace#foo#bar() definition w/o opening the file manually
+2018-01-10 11:22:48	-->	Jesin (~Jesin@115.sub-174-204-15.myvzw.com) has joined #vim
+2018-01-10 11:22:50	-->	forgottenone (~forgotten@91.93.54.149) has joined #vim
+2018-01-10 11:22:57	<--	dolphy (~kramer@h86-62-95-52.ln.rinet.ru) has quit (Ping timeout: 240 seconds)
+2018-01-10 11:23:03	<--	goweol (~Thunderbi@115.95.5.219) has quit (Ping timeout: 256 seconds)
+2018-01-10 11:23:05	kvik	shmup, line 9 seems fine, you are probably refering to line 14. if it were me I would :exec that too
+2018-01-10 11:23:14	-->	coot_ (~coot@65.48.178.78) has joined #vim
+2018-01-10 11:23:23	<--	zamaterian (~Thomas@xd520f2bd.cust.hiper.dk) has quit (Ping timeout: 255 seconds)
+2018-01-10 11:23:49	kvik	m_ben, yes it does, you will need to set iskeyword+=#
+2018-01-10 11:23:56	<--	moltencore (~moltencor@ip5f58f345.dynamic.kabel-deutschland.de) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2018-01-10 11:24:04	kvik	actually setlocal iskeyword+=# in your vim ftplugin
+2018-01-10 11:24:18	<--	knidos (~knidos@78.165.215.23) has quit (Quit: knidos)
+2018-01-10 11:24:29	m_ben	kvik: and then run ctags on my entire ~/.vim directory?

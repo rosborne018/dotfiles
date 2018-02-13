@@ -1,0 +1,23 @@
+2018-01-24 15:07:06	-->	Misha_B (~ryan@192.199.14.174) has joined #ocaml
+2018-01-24 15:07:06	--	Topic for #ocaml is "Discussions about the OCaml programming language | http://www.ocaml.org | OCaml 4.06.0 release notes: https://caml.inria.fr/pub/distrib/ocaml-4.06/notes/Changes | Try OCaml in your browser: http://try.ocamlpro.com | Public channel logs at http://irclog.whitequark.org/ocaml"
+2018-01-24 15:07:06	--	Topic set by adrien (~adrien@nautica.notk.org) on Fri, 24 Nov 2017 14:05:45
+2018-01-24 15:07:06	--	Channel #ocaml: 274 nicks (0 ops, 0 voices, 274 normals)
+2018-01-24 15:07:08	--	Channel created on Sun, 26 Nov 2006 01:42:40
+2018-01-24 15:07:42	Misha_B	is it possible to have a function that converts a int to a float if it's a int, but does nothing if it's a float
+2018-01-24 15:07:57	Misha_B	something like
+2018-01-24 15:08:00	Misha_B	let to_float i : 'a =
+2018-01-24 15:08:00	Misha_B	match i with
+2018-01-24 15:08:00	Misha_B	| int -> float_of_int i
+2018-01-24 15:08:00	Misha_B	| float -> float i;;
+2018-01-24 15:08:21	ShalokShalom	xfbs: I just heard by Yaron that OCaml had the operator |! for the functionality of |> and simply changed it to line up with F#
+2018-01-24 15:08:26	ShalokShalom	companion_cube: ^
+2018-01-24 15:08:55	ShalokShalom	https://youtu.be/aDCq9icUk44?t=40m27s
+2018-01-24 15:09:21	ShalokShalom	great talk, by the way
+2018-01-24 15:11:32	Drup	Misha_B: not like that, no
+2018-01-24 15:11:42	Drup	what's your use case for such a function ?
+2018-01-24 15:12:30	xfbs	Ahh interesting :)
+2018-01-24 15:12:58	Misha_B	have a function that get's the area of a circle from it's radius
+2018-01-24 15:13:11	Misha_B	but can be input with int and float
+2018-01-24 15:14:19	Drup	Right
+2018-01-24 15:14:35	Drup	so the only way in ocaml to have inputs that are "either int of float" is to create a new sum types
+2018-01-24 15:15:24	Misha_B	ok thanks

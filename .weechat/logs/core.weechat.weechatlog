@@ -1,0 +1,366 @@
+2018-01-10 11:12:33		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2018-01-10 11:12:39	=!=	irc: unable to add temporary server "freenode" because the addition of temporary servers with command /connect is currently disabled
+2018-01-10 11:12:39	=!=	irc: if you want to add a standard server, use the command "/server add" (see /help server); if you really want to add a temporary server (NOT SAVED), turn on the option irc.look.temporary_servers
+2018-01-10 11:13:14		irc: server freenode added
+2018-01-10 11:14:22		Option changed: irc.server.freenode.nicks = "Misha_B"  (default if null: "ryan,ryan1,ryan2,ryan3,ryan4")
+2018-01-10 11:14:51		Option changed: irc.server.freenode.sasl_username = "Misha_B"  (default if null: "")
+2018-01-10 11:15:06		Option changed: irc.server.freenode.sasl_password = "5herbs"  (default if null: "")
+2018-01-10 11:15:10	=!=	You can not write text in this buffer
+2018-01-10 11:15:14	=!=	Error: unknown command "/clear" (type /help for help)
+2018-01-24 15:05:31		fifo: removing old fifo pipe "/home/ryan/.weechat/weechat_fifo_29310"
+2018-01-24 15:05:31		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2018-01-24 15:05:36	=!=	irc: unable to add temporary server "freenode" because the addition of temporary servers with command /connect is currently disabled
+2018-01-24 15:05:36	=!=	irc: if you want to add a standard server, use the command "/server add" (see /help server); if you really want to add a temporary server (NOT SAVED), turn on the option irc.look.temporary_servers
+2018-01-24 15:05:47	=!=	Error: unknown command "/freenode" (type /help for help)
+2018-01-24 15:05:57	=!=	Too few arguments for command "/server add" (help on command: /help server)
+2018-01-24 15:06:08		[irc]  /server  list|listfull [<server>]
+2018-01-24 15:06:08		                add <server> <hostname>[/<port>] [-temp] [-<option>[=<value>]] [-no<option>]
+2018-01-24 15:06:08		                copy|rename <server> <new_name>
+2018-01-24 15:06:08		                reorder <server> [<server>...]
+2018-01-24 15:06:08		                del|keep <server>
+2018-01-24 15:06:08		                deloutq|jump|raw
+2018-01-24 15:06:08		list, add or remove IRC servers
+2018-01-24 15:06:08		    list: list servers (without argument, this list is displayed)
+2018-01-24 15:06:08		listfull: list servers with detailed info for each server
+2018-01-24 15:06:08		     add: add a new server
+2018-01-24 15:06:08		  server: server name, for internal and display use
+2018-01-24 15:06:08		hostname: name or IP address of server, with optional port (default: 6667), many addresses can be separated by a comma
+2018-01-24 15:06:08		    temp: add a temporary server (not saved)
+2018-01-24 15:06:08		  option: set option for server (for boolean option, value can be omitted)
+2018-01-24 15:06:08		nooption: set boolean option to 'off' (for example: -nossl)
+2018-01-24 15:06:08		    copy: duplicate a server
+2018-01-24 15:06:08		  rename: rename a server
+2018-01-24 15:06:08		 reorder: reorder list of servers
+2018-01-24 15:06:08		    keep: keep server in config file (for temporary servers only)
+2018-01-24 15:06:08		     del: delete a server
+2018-01-24 15:06:08		 deloutq: delete messages out queue for all servers (all messages WeeChat is currently sending)
+2018-01-24 15:06:08		    jump: jump to server buffer
+2018-01-24 15:06:08		     raw: open buffer with raw IRC data
+2018-01-24 15:06:08		Examples:
+2018-01-24 15:06:08		  /server listfull
+2018-01-24 15:06:08		  /server add freenode chat.freenode.net
+2018-01-24 15:06:08		  /server add freenode chat.freenode.net/6697 -ssl -autoconnect
+2018-01-24 15:06:08		  /server add chatspike irc.chatspike.net/6667,irc.duckspike.net/6667
+2018-01-24 15:06:08		  /server copy freenode freenode-test
+2018-01-24 15:06:08		  /server rename freenode-test freenode2
+2018-01-24 15:06:08		  /server reorder freenode2 freenode
+2018-01-24 15:06:08		  /server del freenode
+2018-01-24 15:06:08		  /server deloutq
+2018-01-24 15:06:26		irc: server freenode added
+2018-02-01 11:25:28		python scripts loaded: slack
+2018-02-01 11:25:28		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2018-02-01 11:25:29		ERROR: Failed connecting to Slack with token INSERT VALID KEY HERE!: invalid_auth
+2018-02-01 11:25:37		#### Retrieving a Slack token via OAUTH ####
+2018-02-01 11:25:37		1) Paste this into a browser: https://slack.com/oauth/authorize?client_id=2468770254.51917335286&scope=client
+2018-02-01 11:25:37		2) Select the team you wish to access from wee-slack in your browser.
+2018-02-01 11:25:37		3) Click "Authorize" in the browser **IMPORTANT: the redirect will fail, this is expected**
+2018-02-01 11:25:37		4) Copy the "code" portion of the URL to your clipboard
+2018-02-01 11:25:37		5) Return to weechat and run `/slack register [code]`
+2018-02-01 11:33:33	=!=	Error: unknown command "/iset" (type /help for help)
+2018-02-01 11:33:44		script: downloading list of scripts...
+2018-02-01 11:33:48		script: 347 scripts for WeeChat 1.4
+2018-02-01 11:33:50		perl: loading script "/home/ryan/.weechat/perl/iset.pl"
+2018-02-01 11:33:50		perl: registered script "iset", version 4.3 (Interactive Set for configuration options)
+2018-02-01 11:33:50		New key binding (context "mouse"): @chat(perl.iset):button1 => hsignal:iset_mouse
+2018-02-01 11:33:50		New key binding (context "mouse"): @chat(perl.iset):button2* => hsignal:iset_mouse
+2018-02-01 11:33:50		New key binding (context "mouse"): @chat(perl.iset):wheeldown => /repeat 5 /iset **down
+2018-02-01 11:33:50		New key binding (context "mouse"): @chat(perl.iset):wheelup => /repeat 5 /iset **up
+2018-02-01 11:35:10		python scripts loaded: slack
+2018-02-01 11:35:10		perl scripts loaded: iset
+2018-02-01 11:35:10		script: 347 scripts for WeeChat 1.4
+2018-02-01 11:35:10		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2018-02-01 11:35:11		ERROR: Failed connecting to Slack with token INSERT VALID KEY HERE!: invalid_auth
+2018-02-01 11:38:50		python scripts loaded: slack
+2018-02-01 11:38:50		perl scripts loaded: iset
+2018-02-01 11:38:50		script: 347 scripts for WeeChat 1.4
+2018-02-01 11:38:50		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2018-02-01 11:38:51		ERROR: Failed connecting to Slack with token INSERT VALID KEY HERE!: invalid_auth
+2018-02-01 11:38:59		Passphrase added
+2018-02-01 11:39:35		Option changed: irc.server_default.nicks = "Misha_B"  (default: "")
+2018-02-01 11:39:50		Option changed: irc.server_default.ssl_verify = off  (default: on)
+2018-02-01 11:40:06		Option changed: irc.server_default.capabilities = "account-notify,away-notify,cap-notify,multi-prefix,server-time,znc.in/self-message"  (default: "")
+2018-02-01 11:41:24		Option changed: aspell.check.default_dict = "en"  (default: "")
+2018-02-01 11:41:40		Option changed: aspell.check.suggestions = 3  (default: -1)
+2018-02-01 11:41:59		Option changed: aspell.color.suggestions = *green  (default: default)
+2018-02-01 11:42:05		Aspell enabled
+2018-02-01 11:42:42		Option created: logger.level.irc = 0  (default: 9)
+2018-02-01 11:45:22		Option changed: irc.look.smart_filter = on
+2018-02-01 11:46:22	=!=	You can not write text in this buffer
+2018-02-01 13:51:55		python scripts loaded: slack
+2018-02-01 13:51:55		perl scripts loaded: iset
+2018-02-01 13:51:55		script: 347 scripts for WeeChat 1.4
+2018-02-01 13:51:55		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2018-02-01 13:51:56		ERROR: Failed connecting to Slack with token INSERT VALID KEY HERE!: invalid_auth
+2018-02-05 11:19:48		python scripts loaded: slack
+2018-02-05 11:19:48		perl scripts loaded: iset
+2018-02-05 11:19:48		script: downloading list of scripts...
+2018-02-05 11:19:48		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2018-02-05 11:19:48		ERROR: Failed connecting to Slack with token INSERT VALID KEY HERE!: invalid_auth
+2018-02-05 11:19:49		script: 347 scripts for WeeChat 1.4
+2018-02-05 11:19:58	=!=	irc: command "join" must be executed on irc buffer (server or channel)
+2018-02-05 11:24:34		[core]
+2018-02-05 11:24:34		  away     cursor   history  mute     reload   unset    window 
+2018-02-05 11:24:34		  bar      debug    input    plugin   repeat   upgrade
+2018-02-05 11:24:34		  buffer   eval     key      print    save     uptime 
+2018-02-05 11:24:34		  color    filter   layout   proxy    secure   version
+2018-02-05 11:24:34		  command  help     mouse    quit     set      wait   
+2018-02-05 11:24:34		[tcl]
+2018-02-05 11:24:34		  tcl
+2018-02-05 11:24:34		[xfer]
+2018-02-05 11:24:34		  me  xfer
+2018-02-05 11:24:34		[fifo]
+2018-02-05 11:24:34		  fifo
+2018-02-05 11:24:34		[script]
+2018-02-05 11:24:34		  script
+2018-02-05 11:24:34		[guile]
+2018-02-05 11:24:34		  guile
+2018-02-05 11:24:34		[lua]
+2018-02-05 11:24:34		  lua
+2018-02-05 11:24:34		[alias]
+2018-02-05 11:24:34		  AAWAY    BEEP     CLOSE    KB       N        T        WC     
+2018-02-05 11:24:34		  alias    BYE      EXIT     LEAVE    Q        UB       WI     
+2018-02-05 11:24:34		  AME      C        IG       M        REDRAW   UMODE    WII    
+2018-02-05 11:24:34		  AMSG     CHAT     J        MSGBUF   SAY      V        WW     
+2018-02-05 11:24:34		  ANICK    CL       K        MUB      SIGNOFF  W      
+2018-02-05 11:24:34		[charset]
+2018-02-05 11:24:34		  charset
+2018-02-05 11:24:34		[irc]
+2018-02-05 11:24:34		  admin       halfop      motd        rehash      time      
+2018-02-05 11:24:34		  allchan     ignore      msg         remove      topic     
+2018-02-05 11:24:34		  allpv       info        names       restart     trace     
+2018-02-05 11:24:34		  allserv     invite      nick        sajoin      unban     
+2018-02-05 11:24:34		  ban         ison        notice      samode      unquiet   
+2018-02-05 11:24:34		  cap         join        notify      sanick      userhost  
+2018-02-05 11:24:34		  connect     kick        op          sapart      users     
+2018-02-05 11:24:34		  ctcp        kickban     oper        saquit      version   
+2018-02-05 11:24:34		  cycle       kill        part        server      voice     
+2018-02-05 11:24:34		  dcc         links       ping        service     wallchops 
+2018-02-05 11:24:34		  dehalfop    list        pong        servlist    wallops   
+2018-02-05 11:24:34		  deop        lusers      query       squery      who       
+2018-02-05 11:24:34		  devoice     map         quiet       squit       whois     
+2018-02-05 11:24:34		  die         me          quote       stats       whowas    
+2018-02-05 11:24:34		  disconnect  mode        reconnect   summon    
+2018-02-05 11:24:34		[python]
+2018-02-05 11:24:34		  python  slack
+2018-02-05 11:24:34		[perl]
+2018-02-05 11:24:34		  iset  perl
+2018-02-05 11:24:34		[javascript]
+2018-02-05 11:24:34		  javascript
+2018-02-05 11:24:34		[relay]
+2018-02-05 11:24:34		  relay
+2018-02-05 11:24:34		[aspell]
+2018-02-05 11:24:34		  aspell
+2018-02-05 11:24:34		[trigger]
+2018-02-05 11:24:34		  trigger
+2018-02-05 11:24:34		[ruby]
+2018-02-05 11:24:34		  ruby
+2018-02-05 11:24:34		[exec]
+2018-02-05 11:24:34		  exec
+2018-02-05 11:24:34		[logger]
+2018-02-05 11:24:34		  logger
+2018-02-05 11:33:07	=!=	Error: unknown command "/commands" (type /help for help)
+2018-02-05 11:33:10		[core]
+2018-02-05 11:33:10		  away     cursor   history  mute     reload   unset    window 
+2018-02-05 11:33:10		  bar      debug    input    plugin   repeat   upgrade
+2018-02-05 11:33:10		  buffer   eval     key      print    save     uptime 
+2018-02-05 11:33:10		  color    filter   layout   proxy    secure   version
+2018-02-05 11:33:10		  command  help     mouse    quit     set      wait   
+2018-02-05 11:33:10		[tcl]
+2018-02-05 11:33:10		  tcl
+2018-02-05 11:33:10		[xfer]
+2018-02-05 11:33:10		  me  xfer
+2018-02-05 11:33:10		[fifo]
+2018-02-05 11:33:10		  fifo
+2018-02-05 11:33:10		[script]
+2018-02-05 11:33:10		  script
+2018-02-05 11:33:10		[guile]
+2018-02-05 11:33:10		  guile
+2018-02-05 11:33:10		[lua]
+2018-02-05 11:33:10		  lua
+2018-02-05 11:33:10		[alias]
+2018-02-05 11:33:10		  AAWAY    BEEP     CLOSE    KB       N        T        WC     
+2018-02-05 11:33:10		  alias    BYE      EXIT     LEAVE    Q        UB       WI     
+2018-02-05 11:33:10		  AME      C        IG       M        REDRAW   UMODE    WII    
+2018-02-05 11:33:10		  AMSG     CHAT     J        MSGBUF   SAY      V        WW     
+2018-02-05 11:33:10		  ANICK    CL       K        MUB      SIGNOFF  W      
+2018-02-05 11:33:10		[charset]
+2018-02-05 11:33:10		  charset
+2018-02-05 11:33:10		[irc]
+2018-02-05 11:33:10		  admin       halfop      motd        rehash      time      
+2018-02-05 11:33:10		  allchan     ignore      msg         remove      topic     
+2018-02-05 11:33:10		  allpv       info        names       restart     trace     
+2018-02-05 11:33:10		  allserv     invite      nick        sajoin      unban     
+2018-02-05 11:33:10		  ban         ison        notice      samode      unquiet   
+2018-02-05 11:33:10		  cap         join        notify      sanick      userhost  
+2018-02-05 11:33:10		  connect     kick        op          sapart      users     
+2018-02-05 11:33:10		  ctcp        kickban     oper        saquit      version   
+2018-02-05 11:33:10		  cycle       kill        part        server      voice     
+2018-02-05 11:33:10		  dcc         links       ping        service     wallchops 
+2018-02-05 11:33:10		  dehalfop    list        pong        servlist    wallops   
+2018-02-05 11:33:10		  deop        lusers      query       squery      who       
+2018-02-05 11:33:10		  devoice     map         quiet       squit       whois     
+2018-02-05 11:33:10		  die         me          quote       stats       whowas    
+2018-02-05 11:33:10		  disconnect  mode        reconnect   summon    
+2018-02-05 11:33:10		[python]
+2018-02-05 11:33:10		  python  slack
+2018-02-05 11:33:10		[perl]
+2018-02-05 11:33:10		  iset  perl
+2018-02-05 11:33:10		[javascript]
+2018-02-05 11:33:10		  javascript
+2018-02-05 11:33:10		[relay]
+2018-02-05 11:33:10		  relay
+2018-02-05 11:33:10		[aspell]
+2018-02-05 11:33:10		  aspell
+2018-02-05 11:33:10		[trigger]
+2018-02-05 11:33:10		  trigger
+2018-02-05 11:33:10		[ruby]
+2018-02-05 11:33:10		  ruby
+2018-02-05 11:33:10		[exec]
+2018-02-05 11:33:10		  exec
+2018-02-05 11:33:10		[logger]
+2018-02-05 11:33:10		  logger
+2018-02-05 11:33:25	=!=	Error: unknown command "/irc" (type /help for help)
+2018-02-05 11:33:58	=!=	Error: unknown command "/ist" (type /help for help)
+2018-02-06 12:43:08		python: stdout/stderr: Traceback (most recent call last):
+2018-02-06 12:43:08		python: stdout/stderr:   File "/home/ryan/.weechat/python/autoload/wee_slack.py", line 24, in <module>
+2018-02-06 12:43:08		python: stdout/stderr:     from websocket import create_connection, WebSocketConnectionClosedException
+2018-02-06 12:43:08		python: stdout/stderr: ImportError: No module named websocket
+2018-02-06 12:43:08	=!=	python: unable to parse file "/home/ryan/.weechat/python/autoload/wee_slack.py"
+2018-02-06 12:43:08		perl scripts loaded: iset
+2018-02-06 12:43:08		script: downloading list of scripts...
+2018-02-06 12:43:08		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2018-02-06 12:43:10		script: 347 scripts for WeeChat 1.4
+2018-02-06 12:46:47		irc: server alumnus added
+2018-02-06 12:47:15		python: stdout/stderr: Traceback (most recent call last):
+2018-02-06 12:47:15		python: stdout/stderr:   File "/home/ryan/.weechat/python/autoload/wee_slack.py", line 24, in <module>
+2018-02-06 12:47:15		python: stdout/stderr:     from websocket import create_connection, WebSocketConnectionClosedException
+2018-02-06 12:47:15		python: stdout/stderr: ImportError: No module named websocket
+2018-02-06 12:47:15	=!=	python: unable to parse file "/home/ryan/.weechat/python/autoload/wee_slack.py"
+2018-02-06 12:47:15		perl scripts loaded: iset
+2018-02-06 12:47:15		script: 347 scripts for WeeChat 1.4
+2018-02-06 12:47:15		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2018-02-06 12:48:09		python: stdout/stderr: Traceback (most recent call last):
+2018-02-06 12:48:09		python: stdout/stderr:   File "/home/ryan/.weechat/python/autoload/wee_slack.py", line 24, in <module>
+2018-02-06 12:48:09		python: stdout/stderr:     from websocket import create_connection, WebSocketConnectionClosedException
+2018-02-06 12:48:09		python: stdout/stderr: ImportError: No module named websocket
+2018-02-06 12:48:09	=!=	python: unable to parse file "/home/ryan/.weechat/python/autoload/wee_slack.py"
+2018-02-06 12:48:09		perl scripts loaded: iset
+2018-02-06 12:48:09		script: 347 scripts for WeeChat 1.4
+2018-02-06 12:48:09		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2018-02-06 12:48:12		All servers:
+2018-02-06 12:48:12		   freenode
+2018-02-06 12:48:12		   alumnus
+2018-02-06 12:48:18	=!=	Error with command "/server alumnus delete" (help on command: /help server)
+2018-02-06 12:48:22		[irc]  /server  list|listfull [<server>]
+2018-02-06 12:48:22		                add <server> <hostname>[/<port>] [-temp] [-<option>[=<value>]] [-no<option>]
+2018-02-06 12:48:22		                copy|rename <server> <new_name>
+2018-02-06 12:48:22		                reorder <server> [<server>...]
+2018-02-06 12:48:22		                del|keep <server>
+2018-02-06 12:48:22		                deloutq|jump|raw
+2018-02-06 12:48:22		list, add or remove IRC servers
+2018-02-06 12:48:22		    list: list servers (without argument, this list is displayed)
+2018-02-06 12:48:22		listfull: list servers with detailed info for each server
+2018-02-06 12:48:22		     add: add a new server
+2018-02-06 12:48:22		  server: server name, for internal and display use
+2018-02-06 12:48:22		hostname: name or IP address of server, with optional port (default: 6667), many addresses can be separated by a comma
+2018-02-06 12:48:22		    temp: add a temporary server (not saved)
+2018-02-06 12:48:22		  option: set option for server (for boolean option, value can be omitted)
+2018-02-06 12:48:22		nooption: set boolean option to 'off' (for example: -nossl)
+2018-02-06 12:48:22		    copy: duplicate a server
+2018-02-06 12:48:22		  rename: rename a server
+2018-02-06 12:48:22		 reorder: reorder list of servers
+2018-02-06 12:48:22		    keep: keep server in config file (for temporary servers only)
+2018-02-06 12:48:22		     del: delete a server
+2018-02-06 12:48:22		 deloutq: delete messages out queue for all servers (all messages WeeChat is currently sending)
+2018-02-06 12:48:22		    jump: jump to server buffer
+2018-02-06 12:48:22		     raw: open buffer with raw IRC data
+2018-02-06 12:48:22		Examples:
+2018-02-06 12:48:22		  /server listfull
+2018-02-06 12:48:22		  /server add freenode chat.freenode.net
+2018-02-06 12:48:22		  /server add freenode chat.freenode.net/6697 -ssl -autoconnect
+2018-02-06 12:48:22		  /server add chatspike irc.chatspike.net/6667,irc.duckspike.net/6667
+2018-02-06 12:48:22		  /server copy freenode freenode-test
+2018-02-06 12:48:22		  /server rename freenode-test freenode2
+2018-02-06 12:48:22		  /server reorder freenode2 freenode
+2018-02-06 12:48:22		  /server del freenode
+2018-02-06 12:48:22		  /server deloutq
+2018-02-06 12:48:30		irc: server alumnus has been deleted
+2018-02-06 12:48:48	=!=	Error with command "/server alumnus-ocess.irc.slack.com 6667 alumnus-ocess.mz2E19Y0AW8nKMCQ2KIa" (help on command: /help server)
+2018-02-06 12:49:37		irc: server alum added
+2018-02-06 12:50:04		irc: server alum has been deleted
+2018-02-06 12:51:05		irc: server alum added
+2018-02-06 12:51:32		irc: server alum has been deleted
+2018-02-06 13:02:48	=!=	Too few arguments for command "/query" (help on command: /help query)
+2018-02-06 13:03:43		python scripts loaded: slack
+2018-02-06 13:03:43		perl scripts loaded: iset
+2018-02-06 13:03:43		script: 347 scripts for WeeChat 1.4
+2018-02-06 13:03:43		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2018-02-06 13:03:43		ERROR: Failed connecting to Slack with token INSERT VALID KEY HERE!: invalid_auth
+2018-02-06 13:03:47		#### Retrieving a Slack token via OAUTH ####
+2018-02-06 13:03:47		1) Paste this into a browser: https://slack.com/oauth/authorize?client_id=2468770254.51917335286&scope=client
+2018-02-06 13:03:47		2) Select the team you wish to access from wee-slack in your browser.
+2018-02-06 13:03:47		3) Click "Authorize" in the browser **IMPORTANT: the redirect will fail, this is expected**
+2018-02-06 13:03:47		4) Copy the "code" portion of the URL to your clipboard
+2018-02-06 13:03:47		5) Return to weechat and run `/slack register [code]`
+2018-02-06 13:05:11		Option changed: plugins.var.python.slack.slack_api_token = "xoxp-310690490835-310690491251-310808569378-eb14af8991fbfe60684858668f5c2156"
+2018-02-06 13:05:27		Options saved to sec.conf
+2018-02-06 13:05:27		Options saved to weechat.conf
+2018-02-06 13:05:27		Options saved to plugins.conf
+2018-02-06 13:05:27		Options saved to charset.conf
+2018-02-06 13:05:27		Options saved to logger.conf
+2018-02-06 13:05:27		Options saved to exec.conf
+2018-02-06 13:05:27		Options saved to trigger.conf
+2018-02-06 13:05:27		Options saved to aspell.conf
+2018-02-06 13:05:27		Options saved to alias.conf
+2018-02-06 13:05:27		Options saved to xfer.conf
+2018-02-06 13:05:27		Options saved to irc.conf
+2018-02-06 13:05:27		Options saved to relay.conf
+2018-02-06 13:05:27		Options saved to iset.conf
+2018-02-06 13:05:27		Options saved to script.conf
+2018-02-06 13:05:31		python: unloading script "slack"
+2018-02-06 13:05:31		python: loading script "/home/ryan/.weechat/python/autoload/wee_slack.py"
+2018-02-06 13:05:31		python: registered script "slack", version 1.99 (Extends weechat for typing notification/search/etc on slack.com)
+2018-02-06 13:05:45	=!=	irc: command "join" must be executed on irc buffer (server or channel)
+2018-02-06 13:06:00	=!=	irc: command "join" must be executed on irc buffer (server or channel)
+2018-02-06 13:06:08	=!=	Error: unknown command "/e" (type /help for help)
+2018-02-06 13:06:11		python scripts loaded: slack
+2018-02-06 13:06:11		perl scripts loaded: iset
+2018-02-06 13:06:11		script: 347 scripts for WeeChat 1.4
+2018-02-06 13:06:11		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2018-02-06 13:06:22	=!=	irc: command "list" must be executed on irc buffer (server or channel)
+2018-02-06 13:06:39		Command not found: 
+2018-02-06 13:06:51		[python/slack]  /slack  [command] [command options]
+2018-02-06 13:06:51		Plugin to allow typing notification and sync of read markers for slack.com
+2018-02-06 13:06:51		Commands:
+2018-02-06 13:06:51		status
+2018-02-06 13:06:51		nodistractions
+2018-02-06 13:06:51		showmuted
+2018-02-06 13:06:51		mute
+2018-02-06 13:06:51		away
+2018-02-06 13:06:51		register
+2018-02-06 13:06:51		back
+2018-02-06 13:06:51		p
+2018-02-06 13:06:51		upload
+2018-02-06 13:06:51		channels
+2018-02-06 13:06:51		distracting
+2018-02-06 13:06:51		openweb
+2018-02-06 13:06:51		slash
+2018-02-06 13:06:51		talk
+2018-02-06 13:06:51		users
+2018-02-06 13:06:51		Use /slack help [command] to find out more
+2018-02-06 13:07:04	=!=	You can not write text in this buffer
+2018-02-06 13:07:35		perl scripts loaded: iset
+2018-02-06 13:07:35		script: 347 scripts for WeeChat 1.4
+2018-02-06 13:07:35		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2018-02-06 13:07:37	=!=	You can not write text in this buffer
+2018-02-06 13:09:49		irc: server alum added
+2018-02-09 15:23:36		fifo: removing old fifo pipe "/home/ryan/.weechat/weechat_fifo_7466"
+2018-02-09 15:23:37		perl scripts loaded: iset
+2018-02-09 15:23:37		script: downloading list of scripts...
+2018-02-09 15:23:37		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2018-02-09 15:23:38		script: 347 scripts for WeeChat 1.4
+2018-02-09 16:51:28		perl scripts loaded: iset
+2018-02-09 16:51:28		script: 347 scripts for WeeChat 1.4
+2018-02-09 16:51:28		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2018-02-09 19:07:22	=!=	irc: command "join" must be executed on irc buffer (server or channel)
+2018-02-09 19:07:34	=!=	irc: command "list" must be executed on connected irc server
