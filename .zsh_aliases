@@ -1,0 +1,32 @@
+# Set personal aliases, overriding those provided by oh-my-zsh libs,
+# users are encouraged to define aliases within the ZSH_CUSTOM folder.
+# For a full list of active aliases, run `alias`.
+# Example aliases
+# alias zshconfig="mate ~/.zshrc"
+# alias ohmyzsh="mate ~/.oh-my-zsh"
+alias zc='vim ~/.zshrc'
+alias zs='source ~/.zshrc'
+alias gbus='cd ~/garuda/platform/bus/'
+alias l1='cd /home/ryan/bbm-identity/performance-tools/locust'
+alias l2='cd /home/ryan/bbm-bbid/Tools/Performance/performance-tests/bbid_locust'
+alias mcli='cd /home/ryan/bbm-identity/bbmid-mock-tools/mock-bbmid-client/src/main/java/com/bbmtek/bbmid/mockclient'
+alias venv='source ~/venv/bin/activate'
+alias venv2='source ~/venv2/bin/activate'
+alias xenv='deactivate'
+alias vssh='vagrant ssh'
+alias vup='vagrant up'
+alias vp='vagrant provision'
+alias hgrep='history | grep -i '
+alias pgrep="ps aux | grep -i"
+alias lgrep="ls -al | grep -i"
+alias fgrep="find | grep -i"
+alias xc='xsel -ib'
+alias gsm='git commit -am "$(date +%F;%T)"; git push origin master'
+alias gcd=". ~/.gce_dev; ~/garuda/provisioning/inventory/gce-staging/gce.py;"
+alias pgkill="ps aux | grep  offline | head -1 | awk '{print $2}'"
+alias xmod='xmodmap .speedswapper'
+alias noe='~/.screenlayout/noEXT.sh'
+alias hri='~/.screenlayout/HDMIRIGHT.sh'
+alias red='rtv --enable-media --theme molokai'
+alias w3m='w3m "google.com"'
+alias bmu='cd ~/bbmuser'
