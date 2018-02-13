@@ -142,6 +142,12 @@ install () {
         void)
             sudo xbps-install -S "$@"
             ;;
+        fedora)
+            sudo dnf install "$@"
+            ;;
+        centos)
+            sudo yum install "$@"
+            ;;
         *)
             echo "unable to find distro"
     esac
