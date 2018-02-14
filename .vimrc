@@ -76,6 +76,8 @@ set showmatch
 :map <leader>L :tabn <CR>
 "tab new blank
 :map <leader>t :tabedit <CR>
+"shows tabs
+:map <leader>T :tabs <CR>
 
 " buffer left
 :map <leader>h :bp <CR>
