@@ -156,3 +156,4 @@ install () {
             echo "unable to find distro"
     esac
 }
+source ~/.dev_testing_token

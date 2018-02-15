@@ -160,6 +160,10 @@ map <C-n> :NERDTreeToggle<CR>
 " tagbar
 nmap <F8> :TagbarToggle<CR>
 
+augroup project
+    autocmd!
+    autocmd BufRead,BufNewFile *.h,*.c set filetype=c
+augroup END
 
 call plug#begin('~/.vim/plugged')
 Plug 'tpope/vim-surround'
