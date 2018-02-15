@@ -160,11 +160,11 @@ map <C-n> :NERDTreeToggle<CR>
 " tagbar
 nmap <F8> :TagbarToggle<CR>
 
-augroup project
-    autocmd!
-    autocmd BufRead,BufNewFile *.h,*.c set filetype=c
-augroup END
-
+if has("autocmd")
+        " Enable file type detection
+    filetype on
+    autocmd BufNewFile,BufRead *.h,*.c setfiletype cpp
+endif
 call plug#begin('~/.vim/plugged')
 Plug 'tpope/vim-surround'
 Plug 'vim-airline/vim-airline'
