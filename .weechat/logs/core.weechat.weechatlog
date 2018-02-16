@@ -378,3 +378,21 @@
 2018-02-15 15:51:24		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
 2018-02-15 15:51:41	=!=	irc: unable to add temporary server "rizon" because the addition of temporary servers with command /connect is currently disabled
 2018-02-15 15:51:41	=!=	irc: if you want to add a standard server, use the command "/server add" (see /help server); if you really want to add a temporary server (NOT SAVED), turn on the option irc.look.temporary_servers
+2018-02-15 15:51:53		perl scripts loaded: iset
+2018-02-15 15:51:53		script: 347 scripts for WeeChat 1.4
+2018-02-15 15:51:53		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2018-02-15 15:51:57	=!=	You can not write text in this buffer
+2018-02-15 15:52:01	=!=	irc: unable to add temporary server "rizon" because the addition of temporary servers with command /connect is currently disabled
+2018-02-15 15:52:01	=!=	irc: if you want to add a standard server, use the command "/server add" (see /help server); if you really want to add a temporary server (NOT SAVED), turn on the option irc.look.temporary_servers
+2018-02-15 15:52:19		irc: server rizon added
+2018-02-15 16:34:38	=!=	Error: unknown command "/buflist" (type /help for help)
+2018-02-15 16:38:05	=!=	Error: option "buflist.format.buffer" not found
+2018-02-15 16:38:05	=!=	Error: option "buflist.format.buffer_current" not found
+2018-02-15 16:38:05	=!=	Error: option "buflist.format.hotlist" not found
+2018-02-15 16:38:05	=!=	Error: option "buflist.format.hotlist_highlight" not found
+2018-02-15 16:38:05	=!=	Error: option "buflist.format.hotlist_message" not found
+2018-02-15 16:38:05	=!=	Error: option "buflist.format.hotlist_private" not found
+2018-02-15 16:38:05	=!=	Error: option "buflist.format.name" not found
+2018-02-15 16:38:05	=!=	Error: option "buflist.format.number" not found
+2018-02-15 16:38:05	=!=	Error: option "weechat.bar.buflist.size" not found
+2018-02-15 16:38:05	=!=	Error: option "weechat.bar.buflist.size_max" not found
