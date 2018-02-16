@@ -1,15 +1,32 @@
-[2018-02-16 09:24:55] WeeChat 1.4 (compiled on Apr 26 2017 18:10:49)
-[2018-02-16 09:24:55] Reading configuration file sec.conf
-[2018-02-16 09:24:55] Reading configuration file weechat.conf
-[2018-02-16 09:24:55] Reading configuration file plugins.conf
-[2018-02-16 09:24:55] Reading configuration file charset.conf
-[2018-02-16 09:24:55] Reading configuration file logger.conf
-[2018-02-16 09:24:55] Reading configuration file exec.conf
-[2018-02-16 09:24:55] Reading configuration file trigger.conf
-[2018-02-16 09:24:55] Reading configuration file aspell.conf
-[2018-02-16 09:24:55] Reading configuration file alias.conf
-[2018-02-16 09:24:55] Reading configuration file xfer.conf
-[2018-02-16 09:24:55] Reading configuration file irc.conf
-[2018-02-16 09:24:55] Reading configuration file relay.conf
-[2018-02-16 09:24:56] Reading configuration file iset.conf
-[2018-02-16 09:24:56] Reading configuration file script.conf
+[2018-02-16 12:25:28] WeeChat 1.4 (compiled on Apr 26 2017 18:10:49)
+[2018-02-16 12:25:28] Reading configuration file sec.conf
+[2018-02-16 12:25:28] Reading configuration file weechat.conf
+[2018-02-16 12:25:28] Reading configuration file plugins.conf
+[2018-02-16 12:25:28] Reading configuration file charset.conf
+[2018-02-16 12:25:28] Reading configuration file logger.conf
+[2018-02-16 12:25:28] Reading configuration file exec.conf
+[2018-02-16 12:25:28] Reading configuration file trigger.conf
+[2018-02-16 12:25:28] Reading configuration file aspell.conf
+[2018-02-16 12:25:28] Reading configuration file alias.conf
+[2018-02-16 12:25:28] Reading configuration file xfer.conf
+[2018-02-16 12:25:28] Reading configuration file irc.conf
+[2018-02-16 12:25:28] Reading configuration file relay.conf
+[2018-02-16 12:25:28] Reading configuration file iset.conf
+[2018-02-16 12:25:28] Reading configuration file script.conf
+[2018-02-16 12:25:37] irc: connecting to server irc.rizon.net/6667...
+[2018-02-16 12:31:53] Signal SIGHUP received, exiting WeeChat...
+[2018-02-16 12:31:53] Writing configuration file plugins.conf
+[2018-02-16 12:31:53] Signal SIGHUP received, exiting WeeChat...
+[2018-02-16 12:31:53] Writing configuration file logger.conf
+[2018-02-16 12:31:53] Writing configuration file exec.conf
+[2018-02-16 12:31:53] Writing configuration file trigger.conf
+[2018-02-16 12:31:53] Writing configuration file aspell.conf
+[2018-02-16 12:31:53] Writing configuration file relay.conf
+[2018-02-16 12:31:53] Writing configuration file iset.conf
+[2018-02-16 12:31:53] Writing configuration file irc.conf
+[2018-02-16 12:31:53] Writing configuration file charset.conf
+[2018-02-16 12:31:53] Writing configuration file alias.conf
+[2018-02-16 12:31:53] Writing configuration file script.conf
+[2018-02-16 12:31:53] Writing configuration file xfer.conf
+[2018-02-16 12:31:53] Writing configuration file weechat.conf
+[2018-02-16 12:31:53] Writing configuration file sec.conf
