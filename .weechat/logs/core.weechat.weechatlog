@@ -446,3 +446,52 @@
 2018-02-16 12:25:28		perl scripts loaded: iset
 2018-02-16 12:25:28		script: 347 scripts for WeeChat 1.4
 2018-02-16 12:25:28		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2018-02-17 19:38:26		[vimode.py] Problematic keybindings detected:
+2018-02-17 19:38:26		[vimode.py]     meta-jmeta-f -> /buffer -
+2018-02-17 19:38:26		[vimode.py]     meta-jmeta-l -> /buffer +
+2018-02-17 19:38:26		[vimode.py]     meta-jmeta-r -> /server raw
+2018-02-17 19:38:26		[vimode.py]     meta-jmeta-s -> /server jump
+2018-02-17 19:38:26		[vimode.py]     meta-wmeta-meta2-A -> /window up
+2018-02-17 19:38:26		[vimode.py]     meta-wmeta-meta2-B -> /window down
+2018-02-17 19:38:26		[vimode.py]     meta-wmeta-meta2-C -> /window right
+2018-02-17 19:38:26		[vimode.py]     meta-wmeta-meta2-D -> /window left
+2018-02-17 19:38:26		[vimode.py]     meta-wmeta2-1;3A -> /window up
+2018-02-17 19:38:26		[vimode.py]     meta-wmeta2-1;3B -> /window down
+2018-02-17 19:38:26		[vimode.py]     meta-wmeta2-1;3C -> /window right
+2018-02-17 19:38:26		[vimode.py]     meta-wmeta2-1;3D -> /window left
+2018-02-17 19:38:26		[vimode.py]     meta-wmeta-b -> /window balance
+2018-02-17 19:38:26		[vimode.py]     meta-wmeta-s -> /window swap
+2018-02-17 19:38:26		[vimode.py] These keybindings may conflict with vimode.
+2018-02-17 19:38:26		[vimode.py] You can remove problematic key bindings and add recommended ones by using /vimode bind_keys, or only list them with /vimode bind_keys --list
+2018-02-17 19:38:26		[vimode.py] For help, see: https://github.com/GermainZ/weechat-vimode/blob/master/FAQ#problematic-key-bindings.md
+2018-02-17 19:38:26		[vimode.py] To force disable warnings, you can set plugins.var.python.vimode.no_warn to 'on'
+2018-02-17 19:38:26		python scripts loaded: vimode
+2018-02-17 19:38:26		perl scripts loaded: iset
+2018-02-17 19:38:26		script: downloading list of scripts...
+2018-02-17 19:38:26		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2018-02-17 19:38:29		script: 347 scripts for WeeChat 1.4
+2018-02-21 12:58:34		[vimode.py] Problematic keybindings detected:
+2018-02-21 12:58:34		[vimode.py]     meta-jmeta-f -> /buffer -
+2018-02-21 12:58:34		[vimode.py]     meta-jmeta-l -> /buffer +
+2018-02-21 12:58:34		[vimode.py]     meta-jmeta-r -> /server raw
+2018-02-21 12:58:34		[vimode.py]     meta-jmeta-s -> /server jump
+2018-02-21 12:58:34		[vimode.py]     meta-wmeta-meta2-A -> /window up
+2018-02-21 12:58:34		[vimode.py]     meta-wmeta-meta2-B -> /window down
+2018-02-21 12:58:34		[vimode.py]     meta-wmeta-meta2-C -> /window right
+2018-02-21 12:58:34		[vimode.py]     meta-wmeta-meta2-D -> /window left
+2018-02-21 12:58:34		[vimode.py]     meta-wmeta2-1;3A -> /window up
+2018-02-21 12:58:34		[vimode.py]     meta-wmeta2-1;3B -> /window down
+2018-02-21 12:58:34		[vimode.py]     meta-wmeta2-1;3C -> /window right
+2018-02-21 12:58:34		[vimode.py]     meta-wmeta2-1;3D -> /window left
+2018-02-21 12:58:34		[vimode.py]     meta-wmeta-b -> /window balance
+2018-02-21 12:58:34		[vimode.py]     meta-wmeta-s -> /window swap
+2018-02-21 12:58:34		[vimode.py] These keybindings may conflict with vimode.
+2018-02-21 12:58:34		[vimode.py] You can remove problematic key bindings and add recommended ones by using /vimode bind_keys, or only list them with /vimode bind_keys --list
+2018-02-21 12:58:34		[vimode.py] For help, see: https://github.com/GermainZ/weechat-vimode/blob/master/FAQ#problematic-key-bindings.md
+2018-02-21 12:58:34		[vimode.py] tmux/screen users, see: https://github.com/GermainZ/weechat-vimode/blob/master/FAQ.md#esc-key-not-being-detected-instantly
+2018-02-21 12:58:34		[vimode.py] To force disable warnings, you can set plugins.var.python.vimode.no_warn to 'on'
+2018-02-21 12:58:34		python scripts loaded: vimode
+2018-02-21 12:58:34		perl scripts loaded: iset
+2018-02-21 12:58:34		script: downloading list of scripts...
+2018-02-21 12:58:34		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2018-02-21 12:58:38		script: 344 scripts for WeeChat 1.4

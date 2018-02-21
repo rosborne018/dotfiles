@@ -34,3 +34,4 @@ alias bmu='cd ~/bbmuser'
 alias gp='git push'
 alias spe='xmodmap ~/.speedswapper'
 alias cl='clear'
+alias vscp="vagrant scp"
