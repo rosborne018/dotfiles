@@ -1,0 +1,2 @@
+"db102c3defbbeb945d7b904380bd975792010c23"
+[cl-struct-undo-tree [nil (#1=[nil nil ((50 . 63) (#(" " 0 1 (fontified nil)) . -50) (50 . 51) (#("'" 0 1 (fontified nil)) . -50) (48 . 51) (#(" " 0 1 (fontified t)) . -48) (undo-tree-id0 . -1) 49 (42 . 49) (41 . 43) (#("(" 0 1 (fontified nil)) . -41) (41 . 42) (40 . 41) (39 . 40) (t 23184 7371 389962 787000) 18) nil (23184 21582 776124 871000) 0 nil]) nil nil (23184 21582 776131 104000) 0 nil] #1# 132 1 nil]

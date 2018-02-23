@@ -1,0 +1,2 @@
+(require 'tramp)
+(require 'vagrant-tramp)

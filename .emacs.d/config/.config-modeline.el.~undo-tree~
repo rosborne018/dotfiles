@@ -1,0 +1,2 @@
+"403a2ee564cbdc705396c91baba55bdee2d0c211"
+[cl-struct-undo-tree [nil (#1=[nil nil ((74 . 83) (#("e" 0 1 (fontified t face font-lock-constant-face)) . -74) (undo-tree-id0 . -1) 75 (67 . 75) (#(" " 0 1 (fontified nil)) . -67) (67 . 68) (#("'" 0 1 (fontified nil)) . -67) (65 . 68) (59 . 65) (58 . 60) (#("(" 0 1 (fontified nil)) . -58) (58 . 59) (57 . 58) (56 . 57) (t 23183 10529 247261 250000) 29) nil (23184 21603 860432 93000) 0 nil]) nil nil (23184 21603 860450 529000) 0 nil] #1# 140 1 nil]

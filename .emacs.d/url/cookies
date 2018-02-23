@@ -1,0 +1,35 @@
+;; Emacs-W3 HTTP cookies file
+;; Automatically generated file!!! DO NOT EDIT!!!
+
+(setq url-cookie-storage
+ '((".google.com"
+  [url-cookie "HttpOnly" nil "25-Aug-2018 15:38:20.00 GMT" "/" ".google.com" nil]
+  [url-cookie "NID" "124=d7pKdg6EER7PQPHTEVDF8nQmfw16yF2Q5-9Lj2PGwwa0aS19L6bP6fARVjpD1uUkKAccxbHWblKLfwvxE-pn5bJPK74aza1jsskY3co5R4Cett7QsfxH1meLTsmHhpxr" "25-Aug-2018 15:38:20.00 GMT" "/" ".google.com" nil]
+  [url-cookie "1P_JAR" "2018-02-23-15" "25-Mar-2018 15:38:20.00 GMT" "/" ".google.com" nil])
+ (".ebay.ca"
+  [url-cookie "nonsession" "CgADKACBj9PdxYmU3MGI3MzMxNjEwYWJjNjg0MDIwMTQ1ZmZlZmNhYmEAywABWo79DDK3f1YG" "Fri, 22 Feb 2019 16:55:32 GMT" "/" ".ebay.ca" nil])
+ (".google.ca"
+  [url-cookie "1P_JAR" "2018-02-23-16" "25-Mar-2018 16:26:28.00 GMT" "/" ".google.ca" nil]
+  [url-cookie "NID" "124=UDCiJhCjrGNK34LrvZY0spCVZnXf0xGD04dpOqnptqRXGtBQuC8AeljBp7dap5l4JQr-qvNqNpFDisLki8Dsa1seYFCQUoPFO440U11ly2WOVeLAKrSXuib0TgMxYKr4" "25-Aug-2018 16:26:28.00 GMT" "/" ".google.ca" nil]
+  [url-cookie "HttpOnly" nil "25-Aug-2018 16:26:28.00 GMT" "/" ".google.ca" nil])
+ (".quora.com"
+  [url-cookie "Max-Age" "558948623" "09-Nov-2035 23:58:59.00 GMT" "/" ".quora.com" nil]
+  [url-cookie "m-early_v" "8df5521e22ab2fa1" "09-Nov-2035 23:58:59.00 GMT" "/" ".quora.com" nil]))
+)
+(setq url-cookie-secure-storage
+ '((".quora.com"
+  [url-cookie "m-s" "B-jD0NmOG023sUTmJtN-Dw\\075\\075" "20-Feb-2028 16:28:36.00 GMT" "/" ".quora.com" t]
+  [url-cookie "HttpOnly" nil "20-Feb-2028 16:28:36.00 GMT" "/" ".quora.com" t]
+  [url-cookie "Max-Age" "315360000" "20-Feb-2028 16:28:36.00 GMT" "/" ".quora.com" t]
+  [url-cookie "m-b" "APIyIOYGTlbRhyo8NPpJGg\\075\\075" "20-Feb-2028 16:28:36.00 GMT" "/" ".quora.com" t])
+ (".github.com"
+  [url-cookie "HttpOnly" nil "Mon, 22 Feb 2038 21:03:24 -0000" "/" ".github.com" t]
+  [url-cookie "logged_in" "no" "Mon, 22 Feb 2038 21:03:24 -0000" "/" ".github.com" t])
+ ("reddit.com"
+  [url-cookie "loid" "00000000000yboas9j.2.1519317638825.Z0FBQUFBQmFqdktIckJWVU95dmFnQmF1NmNISDl0bUFMNFVpc2ptOUpNRGttX1VOcHY2LW13VFhacmRwUGNGZkJKVDZqVVQyUWRpVF9OT2R1TzFfYWRqZnRHdEQ1dXNvTU5DNFNCSnczZW15aWNhZWdFcmhGbUhvRG9PandLUV84bFFNSFo3UFdCQnA" "22-Feb-2020 16:40:39.00 GMT" "/" "reddit.com" t]))
+)
+
+;; Local Variables:
+;; version-control: never
+;; no-byte-compile: t
+;; End:

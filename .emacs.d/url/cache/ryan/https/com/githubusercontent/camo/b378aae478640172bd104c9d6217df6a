@@ -1,0 +1,25 @@
+HTTP/1.1 200 OK
+Cache-Control: max-age=86400
+Content-Security-Policy: default-src 'none'; img-src data:; style-src 'unsafe-inline'
+Content-Type: image/svg+xml;charset=utf-8
+Last-Modified: Fri, 16 Feb 2018 09:06:16 GMT
+Server: github-camo (65c9ebe0)
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Xss-Protection: 1; mode=block
+X-GitHub-Request-Id: 77EC:7DAA:10E8E:1196D:5A8F1C5C
+Content-Length: 482
+Accept-Ranges: bytes
+Date: Fri, 23 Feb 2018 18:04:10 GMT
+Via: 1.1 varnish
+Age: 80701
+Connection: keep-alive
+X-Served-By: cache-mdw17328-MDW
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1519409051.972664,VS0,VE0
+X-Fastly-Request-ID: 1789b5e3511e01a0a4baca91a0b7e7635cfdac80
+Timing-Allow-Origin: https://github.com
+
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="78" height="20"><g shape-rendering="crispEdges"><path fill="#555" d="M0 0h47v20H0z"/><path fill="#97CA00" d="M47 0h31v20H47z"/></g><g fill="#fff" text-anchor="middle" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="110"><text x="245" y="140" transform="scale(.1)" textLength="370">license</text><text x="615" y="140" transform="scale(.1)" textLength="210">MIT</text></g> </svg>

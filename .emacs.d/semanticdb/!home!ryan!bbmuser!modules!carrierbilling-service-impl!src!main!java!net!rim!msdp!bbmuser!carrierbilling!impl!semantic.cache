@@ -1,0 +1,80 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode jdee-mode
+      :tags 
+        '( ("net.rim.msdp.bbmuser.carrierbilling.impl" package nil nil [1 50])
+            ("org.slf4j.Logger" include nil nil [52 76])
+            ("org.slf4j.LoggerFactory" include nil nil [77 108])
+            ("net.rim.msdp.bbmuser.carrierbilling.CarrierBillingException" include nil nil [110 177])
+            ("net.rim.msdp.bbmuser.carrierbilling.CarrierBillingService" include nil nil [178 243])
+            ("net.rim.msdp.bbmuser.shared.ZkAndFileConfigManager" include nil nil [244 302])
+            ("net.rim.msdp.bbmuser.shared.ZooKeeperConfigNodesManager" include nil nil [303 366])
+            ("CarrierBillingServiceImpl" type
+               (:typemodifiers ("public")
+                :interfaces ("CarrierBillingService")
+                :members 
+                  ( ("carrierBillingPaymentConfigPath" variable
+                       (:typemodifiers ("private")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [446 493])
+                    ("LOG" variable
+                       (:typemodifiers ("private" "static" "final")
+                        :type "Logger")
+                        (reparse-symbol class_member_declaration) [498 599])
+                    ("configManager" variable
+                       (:typemodifiers ("private")
+                        :type "ZooKeeperConfigNodesManager")
+                        (reparse-symbol class_member_declaration) [604 654])
+                    ("zkFileManager" variable
+                       (:typemodifiers ("private")
+                        :type "ZkAndFileConfigManager")
+                        (reparse-symbol class_member_declaration) [659 704])
+                    ("getCarrierBillingPaymentConfigPath" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [710 816])
+                    ("setCarrierBillingPaymentConfigPath" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("carrierBillingPaymentConfigPath" variable (:type "String") (reparse-symbol formal_parameters) [869 907]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [822 1277])
+                    ("getConfigManager" function
+                       (:typemodifiers ("public")
+                        :type "ZooKeeperConfigNodesManager")
+                        (reparse-symbol class_member_declaration) [1283 1374])
+                    ("setConfigManager" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("configManager" variable (:type "ZooKeeperConfigNodesManager") (reparse-symbol formal_parameters) [1409 1450]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [1380 1608])
+                    ("isInitialized" function
+                       (:typemodifiers ("public")
+                        :type "boolean")
+                        (reparse-symbol class_member_declaration) [1628 1687])
+                    ("init" function
+                       (:typemodifiers ("public")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [1693 1972])
+                    ("getPaymentConfig" function
+                       (:throws ("CarrierBillingException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("regId" variable (:type "long") (reparse-symbol formal_parameters) [2023 2033]))                          
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [1992 2415]))                  
+                :type "class")
+                nil [368 2418]))          
+      :file "CarrierBillingServiceImpl.java"
+      :pointmax 2419
+      :fsize 2418
+      :lastmodtime '(23183 3338 311443 554000)
+      :unmatched-syntax nil))
+  :file "!home!ryan!bbmuser!modules!carrierbilling-service-impl!src!main!java!net!rim!msdp!bbmuser!carrierbilling!impl!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")
