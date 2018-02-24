@@ -22,4 +22,8 @@
 (helm-autoresize-mode 1)
 (helm-mode 1)
 
+(require 'helm-gtags)
+
+(require 'helm-eshell)
+
 (provide 'config-helm)

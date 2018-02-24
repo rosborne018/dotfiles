@@ -10,11 +10,13 @@
   "b" 'helm-buffers-list
   "k" 'kill-buffer
   "s" 'save-buffer
-  "z" 'shell
+  "z" 'eshell-here
   "g" 'google-this-search
   "m" 'bongo
-  "v" 'fzf
+  "x" 'fzf
+  "v" 'vagrant-tramp
   "u" 'undo-tree-visualize
+  "a" 'ace-window
   "d" 'helm-M-x)
 
 ;; automatically complete parens
