@@ -4,3 +4,5 @@
 (eval-after-load "w3m-mode"
   '(define-key w3m-mode-map (kbd "C-a") nil))
 
+
+(provide 'config-w3m)

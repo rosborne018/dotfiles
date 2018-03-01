@@ -1,1 +1,1 @@
-("~/" "~/bbmuser/" "~/garuda/" "~/toRead/tuhdo.github.io/" "~/bbm-identity/")
+("~/" "~/.emacs.d/" "~/bbmuser/" "~/progprojects/cpu/" "~/garuda/" "~/toRead/tuhdo.github.io/" "~/bbm-identity/")

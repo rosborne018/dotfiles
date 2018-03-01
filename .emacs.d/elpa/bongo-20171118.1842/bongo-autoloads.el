@@ -3,7 +3,7 @@
 ;;; Code:
 (add-to-list 'load-path (directory-file-name (or (file-name-directory #$) (car load-path))))
 
-;;;### (autoloads nil "bongo" "bongo.el" (23183 7284 547568 787000))
+;;;### (autoloads nil "bongo" "bongo.el" (23185 36324 516946 15000))
 ;;; Generated autoloads from bongo.el
 
 (autoload 'bongo-start "bongo" "\
@@ -58,8 +58,8 @@ See the function `bongo-buffer'.
 
 ;;;***
 
-;;;### (autoloads nil nil ("bongo-pkg.el" "lastfm-submit.el") (23183
-;;;;;;  7284 575567 64000))
+;;;### (autoloads nil nil ("bongo-pkg.el" "lastfm-submit.el") (23185
+;;;;;;  36324 726947 908000))
 
 ;;;***
 

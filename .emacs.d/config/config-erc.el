@@ -1,6 +1,15 @@
 (require 'erc)
 (setq erc-user-full-name "Misha_B")
+(setq erc-nick "Misha_B")
 (setq erc-system-name "emacs-workpad")
+(require 'erc-image)
+(add-to-list 'erc-modules 'image)
+(require 'erc-hl-nicks)
+(add-to-list 'erc-modules 'hl-nicks)
+(require 'erc-youtube)
+(add-to-list 'erc-modules 'youtube)
+(erc-youtube-enable)
 
+(erc-update-modules)
 (provide 'config-erc)
 

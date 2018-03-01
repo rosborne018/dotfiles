@@ -4,19 +4,24 @@
 (evil-leader/set-leader "<SPC>")
 
 (evil-leader/set-key
-  "r" 'comp-and-load-interactive
+  "a" 'ace-window
+  "d" 'helm-M-x
+  "e" 'er/expand-region
   "f" 'helm-find-files
-  "q" 'delete-window
-  "b" 'helm-buffers-list
-  "k" 'kill-buffer
-  "s" 'save-buffer
-  "z" 'multi-term
   "g" 'google-this-search
+  "j" 'ace-jump-word-mode
+  "k" 'kill-buffer
+  "l" 'helm-buffers-list
   "m" 'bongo
-  "z" 'fzf
+  "p" 'pop-global-mark
+  "q" 'delete-window
+  "r" 'comp-and-load-interactive
+  "s" 'save-buffer
   "u" 'undo-tree-visualize
-  "d" 'helm-M-x)
-
+  "v" 'vagrant-tramp
+  "z" 'fzf
+  ";" 'shell-here
+  )
 ;; automatically complete parens
 (require 'evil-smartparens)
 (require 'smartparens-config)

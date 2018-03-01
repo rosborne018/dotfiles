@@ -21,3 +21,11 @@
 (define-key helm-map (kbd "C-z")  'helm-select-action) ; list actions using C-z
 (helm-autoresize-mode 1)
 (helm-mode 1)
+
+(require 'helm-gtags)
+
+(require 'helm-eshell)
+
+(require 'helm-fzf)
+
+(provide 'config-helm)
